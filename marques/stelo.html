@@ -1,0 +1,734 @@
+<!doctype html><html lang="fr"><head><meta name="robots" content="noindex, nofollow"><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><title>STELO — fiche concurrent Uromend</title><style>
+body{font-family:Segoe UI,Arial,sans-serif;margin:24px;background:#FAFAF7;color:#222;max-width:1400px}
+h1{margin:0 0 4px} h2{margin:26px 0 8px;border-bottom:2px solid #3E2723;padding-bottom:4px} h3{margin:18px 0 6px}
+.sous{color:#666;margin-bottom:14px}
+table{border-collapse:collapse;width:100%;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+th{background:#3E2723;color:#fff;text-align:left;padding:8px;font-size:13px}
+td{padding:8px;border-bottom:1px solid #eee;vertical-align:top;font-size:13px}
+tr.toi td{background:#FFF8E1} td.num{font-size:20px;font-weight:bold;width:140px}
+.barre{height:6px;background:#eee;border-radius:3px;margin-top:4px} .barre div{height:6px;background:#1565C0;border-radius:3px}
+.petit{font-size:12px;color:#444} .up{color:#2E7D32;font-weight:bold} .down{color:#C62828;font-weight:bold}
+.alerte{background:#FFF59D;border-left:5px solid #FBC02D;padding:8px 12px;margin:6px 0;font-size:14px}
+a{color:#1565C0;text-decoration:none} a:hover{text-decoration:underline}
+.onglets{display:flex;gap:6px;margin:14px 0 0;flex-wrap:wrap}
+.onglets button{border:1px solid #ccc;background:#eee;padding:10px 18px;font-size:15px;cursor:pointer;border-radius:8px 8px 0 0}
+.onglets button.actif{background:#3E2723;color:#fff;border-color:#3E2723}
+.fenetre{display:none;background:#fff;padding:14px 18px;border:1px solid #ddd;box-shadow:0 1px 4px rgba(0,0,0,.08)} .fenetre.actif{display:block}
+.btn{display:inline-block;background:#E3F2FD;border:1px solid #90CAF9;border-radius:6px;padding:3px 9px;font-size:12px;margin:3px 3px 0 0}
+.btn.vid{background:#E8F5E9;border-color:#A5D6A7;color:#1B5E20;font-weight:bold} .btn.lp{background:#FFF3E0;border-color:#FFCC80;color:#E65100}
+.pub{background:#fff;border:1px solid #e5e5e5;border-radius:8px;padding:10px 14px;margin:8px 0;font-size:13px}
+.pub .meta{color:#666;font-size:12px;margin-bottom:4px} .pub summary{cursor:pointer;line-height:1.45}
+.pub pre{white-space:pre-wrap;font-family:inherit;background:#FAFAF7;padding:8px;border-radius:6px;max-height:420px;overflow:auto}
+.tr{margin-top:6px;background:#F3E5F5;border-radius:6px;padding:4px 8px} .tr summary{cursor:pointer;color:#6A1B9A;font-weight:bold}
+.tr p{white-space:pre-wrap;line-height:1.5}
+.ligne{margin:10px 0} .ligne>b{display:block;margin-bottom:-4px}
+.analyse{background:#fff;border-left:5px solid #3E2723;padding:4px 22px 10px;line-height:1.55;font-size:15px}
+.analyse h3{color:#3E2723} .analyse li{margin:3px 0}
+.courbe{width:100%;max-width:720px;height:auto;background:#fff;border:1px solid #eee}
+.legende span{display:inline-block;margin:4px 12px 0 0;font-size:12px} .legende i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:4px;vertical-align:-2px}
+.grille{display:grid;grid-template-columns:1fr 1fr;gap:18px} @media(max-width:900px){.grille{grid-template-columns:1fr}}
+.graphes{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:14px;margin:8px 0}
+.graphe{background:#fff;border:1px solid #e5e5e5;border-radius:8px;padding:10px 14px} .graphe h4{margin:0 0 8px;font-size:14px;color:#3E2723}
+.ligne-barre{display:grid;grid-template-columns:200px 1fr 150px;gap:8px;align-items:center;margin:4px 0;font-size:12px}
+.ligne-barre .lib{white-space:nowrap;overflow:hidden;text-overflow:ellipsis} .ligne-barre .b{height:14px;background:#f0f0f0;border-radius:7px}
+.ligne-barre .b div{height:14px;border-radius:7px;transition:width .4s} .ligne-barre .pct{font-weight:bold;white-space:nowrap}
+.kpi{display:inline-block;background:#fff;border:1px solid #ddd;border-radius:8px;padding:8px 14px;margin:0 8px 8px 0} .kpi b{font-size:22px;display:block}
+</style></head><body>
+<p><a href="../surveillance.html">← Retour à la surveillance</a></p>
+<h1>STELO</h1>
+<div class="sous"><a href="https://stelohealth.com/pages/listiclev1" target="_blank">https://stelohealth.com/pages/listiclev1</a> · fiche mise à jour le 19/10/2026</div>
+<div class="kpi"><b>240</b>pubs actives (toutes pages)</div><div class="kpi"><b>28</b>pubs récoltées et lues</div><div class="kpi"><b>9</b>vidéos, 0 transcrites</div><div class="kpi"><b>&lt;100K (Similarweb ne precise pas sous 100K)</b>visites/mois (+51.89%)</div>
+<h2>Analyse : angles, cible, promesses, offres, formats</h2>
+<div class="analyse"><h3>En une phrase</h3>
+<p>STĒLO Health vend <i>« Stream »</i>, un complément à base d&#x27;<b>équol</b> (molécule issue du soja, fabriquée par certaines bactéries intestinales), 200 pubs actives sur une page + des influenceurs fitness (<i>« Michael Morelli »</i>, <i>« Aaronsbetterbody »</i>). Toute sa publicité repose sur <b>une seule idée : <i>« saw palmetto, pumpkin seed, beta-sitosterol were never going to work »</i></b>, c&#x27;est-à-dire une attaque frontale contre la formule d&#x27;Uromend.</p>
+<h3>Angles marketing (26 pubs lues)</h3>
+<ul>
+<li><b><i>« Ils n&#x27;ont jamais marché »</i></b> (17 pubs sur 26, dont les rangs 1, 4, 6, 10, 11, 14, 22, 24) : <i>« Saw palmetto, pumpkin seed, beta-sitosterol? They were never going to work. Why? None of these &quot;natural ingredients&quot; target DHT. DHT is a hormone that&#x27;s 5x more powerful than testosterone »</i>. Variante <i>« PLEASE stop using… »</i>.</li>
+<li><b><i>« Top Urologists tested 27 prostate supplements »</i></b> (rangs 5, 21, 23, 26) : <i>« Look at the ingredients on the bottles in your drawer. They&#x27;re ALL the same… they all failed you for the SAME reason »</i>.</li>
+<li><b>Les Japonais</b> (rang 2) : <i>« Japanese men have 73% less prostate problems without taking finasteride… their diet helps them produce Equol… Only 23% of American men do »</i>.</li>
+<li><b>Le faux médecin repenti</b> (rang 15, vidéo) : <i>« 67% of men are destroying their prostate… I&#x27;ve been recommending prostate prescription meds for 17 years… trade 1 problem for 9 side effects »</i>.</li>
+<li><b>L&#x27;influenceur de 44 ans</b> (rang 7, vidéo) : <i>« Most guys buying this are 20 and 30 years older than me. I&#x27;m 44 and that&#x27;s exactly why I&#x27;m holding it »</i>.</li>
+<li><b>4 signes</b> (rang 13, vidéo) : <i>« Four signs you&#x27;re getting closer to prostate surgery »</i>.</li>
+<li><b>Promo</b> (rang 25) : <i>« We are so sorry to customers who bought last week. We messed up. So for the next 24 hours we&#x27;re dropping prices by 50% »</i>.</li>
+</ul>
+<h3>Cible, conscience, ennemi</h3>
+<ul>
+<li>Homme 45-70 ans <b>qui a déjà essayé un complément prostate</b> (saw palmetto, courge) et qui est déçu : niveau <i>« conscient de la solution, déçu »</i>. Et l&#x27;homme sous finastéride qui a peur pour sa libido.</li>
+<li>Ennemis : les 3 ingrédients classiques (<i>« marketers have recycled for decades »</i>), le finastéride, et <i>« ce qu&#x27;on vous cache »</i>.</li>
+<li>Promesse : viser la DHT <i>« à la racine »</i>, sans toucher à la testostérone ni à la libido ; 87 % de levers en moins, 88 % de jet plus fort (chiffres de leur étude, voir ci-dessous).</li>
+</ul>
+<h3>Offre et page de vente</h3>
+<ul>
+<li><a href="https://stelohealth.com/pages/listiclev1" target="_blank">stelohealth.com/pages/listiclev1</a> : faux article <i>« The Wellness Brief »</i>, 7 raisons, signé <i>« Dr. William Gerin, MD »</i>, tableau comparatif, 3 167 avis.</li>
+<li>-50 %, garantie 90 jours <i>« une phrase par e-mail »</i>, pot en verre, flacon de voyage offert, guide <i>« 7 Fixes For A Healthy Sex Drive »</i>.</li>
+</ul>
+<h3>Ce que disent vraiment les études (d&#x27;après PubMed)</h3>
+<ul>
+<li><b>La seule étude clinique sur l&#x27;équol et la prostate</b> est un essai pilote d&#x27;Edwin Lephart (Brigham Young University, Utah) : <b>18 hommes, 4 semaines, sans groupe placebo</b>, publié en 2013 dans <i>« Open Journal of Urology »</i> (éditeur SCIRP, à publication payante). Les <i>« 87 % / 88 % / 67 % »</i> de leur page viennent de là. Aucun essai randomisé contre placebo sur l&#x27;équol et la prostate n&#x27;existe dans PubMed (recherche du 17/10/2026).</li>
+<li><b>L&#x27;équol est un phyto-œstrogène</b> : <i>« a chemical structure similar to estrogen »</i>, il agit sur les récepteurs aux œstrogènes (<a href="https://doi.org/10.1111/jdi.13995" target="_blank">Journal of Diabetes Investigation 2023</a>). Leur page dit <i>« hormone-free »</i> : c&#x27;est au mieux trompeur.</li>
+<li><b><i>« Only 23 % of American men produce Equol »</i></b> : la production d&#x27;équol varie énormément d&#x27;une personne à l&#x27;autre et selon la définition retenue (29 % à 48 % de producteurs dans une étude japonaise sur 466 personnes, <a href="https://doi.org/10.1016/j.cca.2024.117885" target="_blank">Clinica Chimica Acta 2024</a>) : avaler de l&#x27;équol ne vous rend pas <i>« japonais »</i>.</li>
+<li><b>Leur argument <i>« NIH STEP trial »</i> est tordu</b> : l&#x27;étude STEP (<a href="https://doi.org/10.1056/NEJMoa053085" target="_blank">NEJM 2006</a>, 225 hommes, 1 an) et CAMUS (<a href="https://doi.org/10.1001/jama.2011.1364" target="_blank">JAMA 2011</a>, 369 hommes) ont testé <b>le saw palmetto seul</b> et n&#x27;ont pas trouvé mieux que le placebo. C&#x27;est vrai, et c&#x27;est pour ça qu&#x27;Uromend ne repose pas que sur le saw palmetto. Mais STEP n&#x27;a jamais testé la courge ni le bêta-sitostérol.</li>
+<li><b>La courge, elle, a une vraie étude contre placebo</b> : GRANU, <a href="https://doi.org/10.1159/000362903" target="_blank">Urologia Internationalis 2014</a>, <b>1 431 hommes, 12 mois</b>, graines de courge mieux que placebo sur le score de symptômes (58,5 % de répondeurs contre 47,3 %). Et un essai de 2021 (<a href="https://doi.org/10.1186/s12894-021-00910-8" target="_blank">BMC Urology</a>, 73 hommes) : l&#x27;huile de courge améliore les symptômes avec <b>zéro effet secondaire</b>, là où la tamsulosine donne vertiges et éjaculation rétrograde.</li>
+<li><b>Le bêta-sitostérol</b> : la revue de 2019 (<a href="https://doi.org/10.4081/aiua.2019.3.139" target="_blank">Arch Ital Urol Androl</a>) le décrit comme <i>« able to improve urinary symptoms and flow measures »</i>.</li>
+<li>Bonus : chez des Japonais consultant pour infertilité, plus d&#x27;isoflavones de soja dans les urines = moins de spermatozoïdes (<a href="https://doi.org/10.4103/aja202566" target="_blank">Asian J Androl 2026</a>) ; l&#x27;équol lui-même n&#x27;était pas associé, mais c&#x27;est la famille de molécules qu&#x27;ils vendent.</li>
+</ul>
+<h3>Ce que ça veut dire pour Uromend</h3>
+<ul>
+<li>STĒLO fait tout son marketing sur le dos de ta formule. La riposte honnête : <b><i>« 18 hommes, 4 semaines, pas de placebo »</i></b> contre <b><i>« 1 431 hommes, 12 mois, contre placebo »</i></b> pour la courge. C&#x27;est une pub à faire.</li>
+<li>Leur structure de pub est bonne et copiable : accroche <i>« X, Y, Z were never going to work »</i> → mécanisme simple (DHT 5× plus puissante que la testostérone) → la solution → l&#x27;offre. Uromend peut retourner la même structure : <i>« Equol was never going to work. Why? 18 men. 4 weeks. No placebo. »</i></li>
+<li>Attention au mot <i>« hormone-free »</i> : l&#x27;équol est un phyto-œstrogène, c&#x27;est un angle de contre-attaque (<i>« you&#x27;re taking a plant estrogen for your prostate »</i>), à utiliser avec prudence (ne pas affirmer de danger, seulement citer la nature de la molécule).</li>
+</ul>
+<h3>Contre-attaque Uromend (17/10/2026) : 5 visuels générés</h3>
+<p>Cible : l&#x27;homme déçu des compléments (niveau 3 Schwartz, conscient de la solution). Format 1:1, 2K, générés chez Higgsfield (modèle Nano Banana, 2 crédits chacun), packshot officiel en référence. Fichiers dans `contre-attaque\stelo-concept-1..5.png`.</p>
+<ul>
+<li><b>1. <i>« 18 men. 4 weeks. No placebo. »</i></b> : fond noir + flèches rouges (le style de leur pub n°1 depuis 145 jours). Preuve contre preuve. <a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261017_131036_a74d03ea-953e-4c43-aa61-e9e8f9b8c047.png" target="_blank">Voir</a></li>
+<li><b>2. <i>« A plant estrogen… for your prostate? »</i></b> : crème + vert + orange (leur style <i>« pot vert »</i>). Version 2 avec la vraie gélule Uromend : <a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261017_131430_0b7ceba0-0739-4226-ad53-4582707fa740.png" target="_blank">Voir</a> (fichier stelo-concept-2-v2.png)</li>
+<li><b>3. <i>« Only 23% of men produce equol. Swallowing it doesn&#x27;t make you Japanese. »</i></b> : fond noir. <a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261017_131036_6c920c25-2f29-44b1-bc67-7148003bff2a.png" target="_blank">Voir</a></li>
+<li><b>4. Tableau comparatif <i>« We checked the new molecule claims »</i></b> : réponse à leur <i>« Tested 5 supplements »</i>. <a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261017_131036_2d66c0de-1708-4890-aae1-9c8ee3be5f8d.png" target="_blank">Voir</a></li>
+<li><b>5. <i>« Replace Flomax and finasteride with 6 ingredients at study doses »</i></b> : crème, offre -30 %. Version 2 corrigée (vraie gélule, 60 capsules) : <a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261017_131430_bab00736-0ea6-414b-ad75-76c76e8d9ed2.png" target="_blank">Voir</a> (fichier stelo-concept-5-v2.png)</li>
+</ul>
+<p>Références Higgsfield : bouteille media 4308f8af-59c2-48bb-9a86-7a1cd7ec7020, gélule media 20f06848-764d-4a13-8e7a-77efd5d1247d (packshots du Drive, copies dans `assets\`). Ordre de test conseillé : 1, puis 4, puis 2. Aucune marque concurrente nommée dans les visuels (<i>« the equol brand »</i>).</p>
+<h4>Version 3 (18/10/2026, après les retours de Saad) : fichiers `contre-attaque\stelo-concept-1..5-v3.png`</h4>
+<p>Règles appliquées : texte-seul sans produit pour les noirs (natif Facebook, police système type Helvetica/Segoe UI), phrases complètes niveau CM2 (<i>« sugar pill »</i> au lieu de placebo), <i>« equol »</i> nommé dans chaque visuel, split-screen pour le 2, tableau avec <i>« ESTROGEN »</i> en rouge en première ligne.</p>
+<ul>
+<li><a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261018_211515_af4a90c6-8a6c-4835-afe3-9abac8e9baa1.png" target="_blank">1 v3 texte noir <i>« The equol brand&#x27;s only clinical proof is one small study »</i></a></li>
+<li><a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261018_211516_457970b5-2245-480b-8fc9-d2ebfbe200b6.png" target="_blank">2 v3 split-screen <i>« Equol is a plant estrogen / Uromend MEN has zero estrogen »</i></a></li>
+<li><a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261018_211515_3787711d-ab3c-4ecc-b2ab-2d1afad14a0f.png" target="_blank">3 v3 texte noir <i>« Only 23% of American men can make equol in their gut »</i></a></li>
+<li><a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261018_211515_6a72fd4f-4d65-4f2a-99bf-9eb455cf1990.png" target="_blank">4 v3 tableau <i>« We checked the equol ads »</i></a></li>
+<li><a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261018_211515_374c97ad-83fd-4a4c-bf05-553ba4722469.png" target="_blank">5 v3 <i>« Replace Flomax and finasteride… Not with equol »</i></a></li>
+</ul>
+<h4>Version 4 (18/10/2026) : fichiers `contre-attaque\stelo-concept-1-v4.png`, `-3-v4`, `-4-v4` (les 2 et 5 restent en v3)</h4>
+<p>Corrections : <i>« placebo »</i> gardé mais l&#x27;enjeu expliqué (<i>« Without a placebo, nobody can tell if the pill did anything at all »</i>) ; plus de <i>« Japanese men story »</i> : <i>« Equol may be good for a Japanese gut raised on soy. It is not the answer for an American gut. »</i></p>
+<ul>
+<li><a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261018_212745_7736781d-299f-444c-82dd-5a2f309dddf3.png" target="_blank">1 v4</a> · <a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261018_212643_45bc74a8-6c6b-48d8-9307-e90f2e2dd87c.png" target="_blank">3 v4</a> · <a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261018_212644_01da0b00-48db-4085-a625-77087c6f93d7.png" target="_blank">4 v4</a></li>
+<li>Concept 1 version finale : `contre-attaque\stelo-concept-1-v5.png`, composé en local par `texte_noir.py` (fond noir, Segoe UI, texte exact ; le modèle IA sortait du fond blanc). Texte dans `contre-attaque\concept-1.json`. Pour un autre texte-seul : copier le json, puis `python -I -X utf8 texte_noir.py &lt;sortie.png&gt; &lt;blocs.json&gt;`.</li>
+<li>Concept 4 version finale (note du bas en noir) : <a href="https://d8j0ntlcm91z4.cloudfront.net/user_30sThKuycFdpnzKJ4WEFHBBTVY1/hf_20261018_221627_3d3f9df0-cb45-443c-8496-3e8ed844af69.png" target="_blank">voir</a>, fichier `contre-attaque\stelo-concept-4-v5.png`.</li>
+<li><b>Batch livré</b> : les 5 visuels finaux sont dans `C:\Users\PC\Desktop\UROMEND\BATCH 2 - IMAGE - EQUOL WAR\` (01 texte noir, 02 split-screen, 03 texte noir 23 %, 04 tableau, 05 Replace Flomax).</li>
+</ul>
+<h3>Taille estimée et stratégie <i>« failed solutions »</i> (19/10/2026)</h3>
+<p>Analyse complète dans <a href="stelo-taille-et-strategie.md">stelo-taille-et-strategie.md</a> et brief LLM dans <a href="stelo-brief-llm.md">stelo-brief-llm.md</a>. Résumé : marque jeune (domaine juin 2025, ventes depuis sept. 2025), 320 pubs cumulées / 200 actives, trafic &lt; 100 K visites (+52 % en un mois), prix 48,95 → 59,95 $, 25 vrais avis. <b>Revenu estimé 90 à 240 k$/mois (centre ≈ 150 k$, ≈ 1,8 M$/an), MRR abonnement 20 à 60 k$/mois</b> : petite marque DTC en accélération. Marché de l&#x27;équol minuscule (5-9 M$ dans le monde) : l&#x27;équol est un argument de pub, pas une vague.</p>
+<ul>
+<li>Comparaison chiffrée STĒLO / Uromend (rythme annuel, CA réalisé, MRR) : <a href="stelo-vs-uromend-chiffres.md">stelo-vs-uromend-chiffres.md</a>.</li>
+</ul></div>
+<h2>En chiffres : hooks, conscience, personas, ennemis, narratifs</h2>
+<p class="sous">Sur 28 pubs récoltées (texte + hook/transcription des vidéos), classées automatiquement par mots-clés. Flèches = écart en points avec le relevé du 2026-10-17.</p><div class="graphes"><div class="graphe"><h4>Hooks (accroches) les plus utilisés</h4><div class="ligne-barre"><div class="lib" title="Autre">Autre</div><div class="b"><div style="width:100%;background:#1565C0"></div></div><div class="pct">100 % <span class="petit">(28)</span></div></div></div><div class="graphe"><h4>Niveau de conscience visé (Eugene Schwartz)</h4><div class="ligne-barre"><div class="lib" title="3. Conscient de la solution (connaît courge, saw palmetto, nigelle…)">3. Conscient de la solution (connaît courge, saw palmetto, nigelle…)</div><div class="b"><div style="width:68%;background:#6A1B9A"></div></div><div class="pct">68 % <span class="petit">(19)</span></div></div><div class="ligne-barre"><div class="lib" title="5. Très conscient (prix, promo, marque)">5. Très conscient (prix, promo, marque)</div><div class="b"><div style="width:21%;background:#6A1B9A"></div></div><div class="pct">21 % <span class="petit">(6)</span></div></div><div class="ligne-barre"><div class="lib" title="2. Conscient du problème (symptômes : levers, jet faible, Flomax, érection)">2. Conscient du problème (symptômes : levers, jet faible, Flomax, érection)</div><div class="b"><div style="width:7%;background:#6A1B9A"></div></div><div class="pct">7 % <span class="petit">(2)</span></div></div><div class="ligne-barre"><div class="lib" title="1. Inconscient (ne sait pas qu&#x27;il a un problème : reins, parasites)">1. Inconscient (ne sait pas qu&#x27;il a un problème : reins, parasites)</div><div class="b"><div style="width:4%;background:#6A1B9A"></div></div><div class="pct">4 % <span class="petit">(1)</span></div></div></div><div class="graphe"><h4>Personas visés</h4><div class="ligne-barre"><div class="lib" title="Homme 50+ prostate / levers la nuit">Homme 50+ prostate / levers la nuit</div><div class="b"><div style="width:96%;background:#2E7D32"></div></div><div class="pct">96 % <span class="petit">(27)</span></div></div><div class="ligne-barre"><div class="lib" title="Autre">Autre</div><div class="b"><div style="width:4%;background:#2E7D32"></div></div><div class="pct">4 % <span class="petit">(1)</span></div></div></div><div class="graphe"><h4>Ennemis désignés</h4><div class="ligne-barre"><div class="lib" title="Flomax / médicaments">Flomax / médicaments</div><div class="b"><div style="width:54%;background:#C62828"></div></div><div class="pct">54 % <span class="petit">(15)</span></div></div><div class="ligne-barre"><div class="lib" title="La DHT / l&#x27;hormone">La DHT / l&#x27;hormone</div><div class="b"><div style="width:25%;background:#C62828"></div></div><div class="pct">25 % <span class="petit">(7)</span></div></div><div class="ligne-barre"><div class="lib" title="Autre">Autre</div><div class="b"><div style="width:11%;background:#C62828"></div></div><div class="pct">11 % <span class="petit">(3)</span></div></div><div class="ligne-barre"><div class="lib" title="Chirurgie / sonde / dialyse (la peur)">Chirurgie / sonde / dialyse (la peur)</div><div class="b"><div style="width:11%;background:#C62828"></div></div><div class="pct">11 % <span class="petit">(3)</span></div></div></div><div class="graphe"><h4>Type de narratif</h4><div class="ligne-barre"><div class="lib" title="Autre">Autre</div><div class="b"><div style="width:100%;background:#EF6C00"></div></div><div class="pct">100 % <span class="petit">(28)</span></div></div></div></div>
+<div class="grille"><div>
+<h2>Volume par page Facebook dans le temps</h2>
+<svg viewBox="0 0 640 220" class="courbe"><line x1="50" y1="192" x2="630" y2="192" stroke="#eee"/><text x="44" y="196" text-anchor="end" font-size="11" fill="#666">0</text><line x1="50" y1="101" x2="630" y2="101" stroke="#eee"/><text x="44" y="105" text-anchor="end" font-size="11" fill="#666">120</text><line x1="50" y1="10" x2="630" y2="10" stroke="#eee"/><text x="44" y="14" text-anchor="end" font-size="11" fill="#666">240</text><text x="50" y="212" text-anchor="middle" font-size="11" fill="#666">10-17-matin</text><text x="340" y="212" text-anchor="middle" font-size="11" fill="#666">10-17</text><text x="630" y="212" text-anchor="middle" font-size="11" fill="#666">10-19</text><polyline fill="none" stroke="#1565C0" stroke-width="2" points="50,40 340,40 630,10"/></svg><div class="legende"><span><i style="background:#1565C0"></i>STĒLO : 240</span></div>
+<table><tr><th>Page</th><th>Pubs actives</th><th>Évolution</th><th>Récolte</th></tr><tr><td><a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=669424989594238&search_type=page&media_type=all" target="_blank">STĒLO</a></td><td class="num">240</td><td><span class="up">+40 (+20 %)</span> <svg width="90" height="24"><polyline fill="none" stroke="#1565C0" stroke-width="2" points="0,6 45,6 90,2"/></svg></td><td>28 récoltées, 9 vidéos</td></tr></table>
+</div><div>
+<h2>Pages de vente les plus utilisées</h2><ul><li><a href="https://stelohealth.com/pages/listiclev1" target="_blank">stelohealth.com/pages/listiclev1</a> — 12 pub(s)</li><li><a href="https://stelohealth.com/pages/stream-by-stelo-listicle-v2" target="_blank">stelohealth.com/pages/stream-by-stelo-listicle-v2</a> — 6 pub(s)</li><li><a href="https://theprostatejournal.com/" target="_blank">theprostatejournal.com/</a> — 4 pub(s)</li><li><a href="https://theprostatejournal.com/👈" target="_blank">theprostatejournal.com/👈</a> — 3 pub(s)</li><li><a href="https://www.instagram.com/_u/owen.mckibbin1" target="_blank">www.instagram.com/_u/owen.mckibbin1</a> — 2 pub(s)</li><li><a href="https://stelohealth.com/pages/testing-new-pdp" target="_blank">stelohealth.com/pages/testing-new-pdp</a> — 2 pub(s)</li><li><a href="https://stelohealth.com/products/stream-welcome-kit" target="_blank">stelohealth.com/products/stream-welcome-kit</a> — 1 pub(s)</li><li><a href="https://stelohealth.com/pages/listicleowen?trybe=46e0180f46e0180f" target="_blank">stelohealth.com/pages/listicleowen?trybe=46e0180f46e0180f</a> — 1 pub(s)</li></ul>
+<h2>Meilleures places dans les classements</h2><p>« Flomax » : 12e, « prostate supplement » : 23e</p>
+</div></div>
+<h2>Évolution du compte, page par page</h2>
+<p class="sous">Ce qui compte : le nombre de pubs actives de la page à chaque comptage, et le mouvement des pubs à l’intérieur de la page (l’ordre d’affichage de la Bibliothèque = tri par impressions ; la Bibliothèque ne donne pas le chiffre d’impressions pour ces pubs, seulement l’ordre). Une pub qui monte = elle reçoit plus de budget.</p>
+<h3><a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=669424989594238&search_type=page&media_type=all" target="_blank">STĒLO</a> : 240 pubs actives <span class="up">+40 (+20 %)</span></h3><p class="sous">Pubs récoltées à chaque relevé : 2026-10-17 : 26, 2026-10-19 : 27</p><b>Nouvelles dans le top de la page entre 2026-10-17 et 2026-10-19 (2)</b><ul><li>rang 3 · <a href="https://www.facebook.com/ads/library/?id=4686093265051016" target="_blank">« Saw palmetto, pumpkin seed, beta-sitosterol? they were never going to work. Why? »</a> (début 21 sep 2026)</li><li>rang 22 · <a href="https://www.facebook.com/ads/library/?id=1084057044475609" target="_blank">« Storage fees go up next week so we&#x27;re clearing inventory at 63% off. So if you&#x27;v »</a> (début 3 oct 2026)</li></ul><b>Sorties du top (arrêtées ou descendues) (1)</b><ul><li>était rang 1 · <a href="https://www.facebook.com/ads/library/?id=1806707460313410" target="_blank">« Saw palmetto, pumpkin seed, beta-sitosterol? they were never going to work. Why? »</a> (début 18 mai 2026)</li></ul><b>Descendent (1)</b><ul><li><span class="down">20e → 27e</span> · <a href="https://www.facebook.com/ads/library/?id=1433634058447001" target="_blank">« Saw palmetto, pumpkin seed, beta-sitosterol? They were never going to work. Why? »</a> (début 22 mai 2026)</li></ul>
+<h2>Pubs vidéo (9) — lien de téléchargement et transcription</h2>
+<p class="sous">Le bouton vert télécharge la vidéo directement depuis Facebook (le lien expire après quelques heures ; une copie locale est gardée dans veille\videos quand elle a été transcrite). Les transcriptions complètes sont aussi dans <a href="stelo-transcripts.md">stelo-transcripts.md</a>.</p>
+<div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🎬 vidéo · début 6 mai 2026 · depuis 166 j · <b>2 variantes</b> · rang 18 dans la page (était 15)</div>
+<details><summary>67% of men are destroying their prostate health by taking this...
+And me saying this is going to make every urologist, doctor, and supplement company in America very, very angry.
+But I&#x27;ve been recommending prostate prescription meds for 17 years with a lurking thought in the back of my mind.
+The thought that this man will likely trade 1 problem for 9 other side effects.
+That&#x27;s why I&#x27;m sharing this.
+And…</summary><pre>67% of men are destroying their prostate health by taking this...
+And me saying this is going to make every urologist, doctor, and supplement company in America very, very angry.
+But I&#x27;ve been recommending prostate prescription meds for 17 years with a lurking thought in the back of my mind.
+The thought that this man will likely trade 1 problem for 9 other side effects.
+That&#x27;s why I&#x27;m sharing this.
+And don&#x27;t get me started on amount of supplements that do absolutely nothing.
+But why? Because they don&#x27;t target DHT.
+The very hormone that&#x27;s attacking your prostate causing it to grow.
+But unlike finasteride stopping your body from making DHT entirely killing your sex drive,
+Equol binds to already made DHT in the prostate and just neutralizes it.
+Testosterone levels stay the same while the bathroom trips drop.
+And in 3-4 weeks you&#x27;re sleeping through the night.
+I&#x27;ve done the research. I&#x27;ve seen the clinical studies.
+I&#x27;ll put it here in this link below if you want to check it out.</pre></details>
+<div class="tr">🎤 Hook (20 premières secondes) : « So worst mistake a man age 40 plus can make and it&#x27;s like the patient walks into my office one day to have him to urinate all the time Waking up to have to go I give him a prescription to take he looks me dead in the eye and says I&#x27;m not taking that Then the same guy comes back three weeks later. It says so I didn&#x27;t take the prescription meds and » <span class="petit">(transcription complète sur demande)</span></div><div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1622107265509955" target="_blank">Voir dans la Bibliothèque</a> <a class="btn vid" href="https://video.fcmn1-4.fna.fbcdn.net/o1/v/t2/f2/m412/AQO9ZaBceF5ETZ1c_GLPTziOtz0U2SlZtg9h24jCJCQN6LGp0mVo3vlFaotvNYZ5WCSZJytmo3E1MMl3SeNvgcPRTpvV_PPLRNe6dfv7jw.mp4?_nc_cat=105&amp;_nc_oc=AdpPI8ZAvRBMXng9EF6Gb5Zu7IUD0PgLFQddnXzb1RPshluq7B3LzNPRJldWous38Oc&amp;_nc_sid=ef5aa3&amp;_nc_ht=video.fcmn1-4.fna.fbcdn.net&amp;_nc_ohc=kuA4L3StoCIQ7kNvwESv2VZ&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTI3NDU5MTQ3NDgwNDE3MCwiYXNzZXRfYWdlX2RheXMiOjE3MywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjU4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_gid=ZH8WeTU78niS8S81kpErqw&amp;_nc_ss=79289&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQNORSV-lY2vq7tOFey4vYaVoTzdYEkF5a5SyNq-gpMBSA&amp;oe=6ADB8E35" target="_blank" download="1622107265509955.mp4">⬇ Télécharger la vidéo</a> <a class="btn" href="../videos/1622107265509955.mp4" target="_blank">▶ Copie locale</a> <a class="btn lp" href="https://stelohealth.com/pages/adv4" target="_blank">Page de vente : stelohealth.com/pages/adv4</a></div></div><div class="pub"><div class="meta"><span class="petit">Michael Morelli - Fitness Coach avec STĒLO · </span>🎬 vidéo · début 15 sep 2026 · depuis 34 j · <b>2 variantes</b> · rang 6 dans la page (était 7)</div>
+<details><summary>I take DOZENS of supplements and pills. But this is by FAR one of the most important. Why?
+Every year, more and more DHT builds up in the prostate, causing it to grow and grow.
+Then squeezing tighter and tighter on the urethra, the tube urine passes through.
+That&#x27;s why you&#x27;re up during the night to have to pee, can&#x27;t empty completely, and are straining to go.
+And 95% of prostate supplements don&#x27;t …</summary><pre>I take DOZENS of supplements and pills. But this is by FAR one of the most important. Why?
+Every year, more and more DHT builds up in the prostate, causing it to grow and grow.
+Then squeezing tighter and tighter on the urethra, the tube urine passes through.
+That&#x27;s why you&#x27;re up during the night to have to pee, can&#x27;t empty completely, and are straining to go.
+And 95% of prostate supplements don&#x27;t even touch DHT. They mask symptoms. The studies show it.
+What do the studies also show?
+That a compound called equol binds to the DHT in your prostate, supporting a healthy prostate size and relieving pressure on the urethra.
+✅ Sleeping through the night + Better flow
+✅ No fear of prostate surgery
+✅ 90-day money-back guarantee
+It&#x27;s 50% off for the next week through my link below 👇</pre></details>
+<div class="tr">🎤 Hook (20 premières secondes) : « Most guys buying this are 20 and 30 years older than me. I&#x27;m 44 and that&#x27;s exactly why I&#x27;m holding it. Here&#x27;s the lie every man in his 40s tells himself about his prostate. It&#x27;s not that bad yet. If you&#x27;re a man in your 40s and you think this doesn&#x27;t apply to you, that denial is exactly what lands guys in surgery at 65. We wait. » <span class="petit">(transcription complète sur demande)</span></div><div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=3277560642453963" target="_blank">Voir dans la Bibliothèque</a> <a class="btn vid" href="https://video.fcmn1-3.fna.fbcdn.net/o1/v/t2/f2/m412/AQMATxjKiV6U0ISbzsdQHukb2WJRDufTPiRt6mthoiDP5bnYlEhdr68a0et1LfYxpxwoV1hHZJfbabJ6DaL7MJjt4I9JMsszcqarAY8ytw.mp4?_nc_cat=104&amp;_nc_oc=AdpktmiyG2lKVYIRYpuVt0jpcWaiEXNnlkYGGQW_ebaI-AdIHzMEFqtmgQ4qt1D-8J0&amp;_nc_sid=ef5aa3&amp;_nc_ht=video.fcmn1-3.fna.fbcdn.net&amp;_nc_ohc=WRQVRSM8ki8Q7kNvwFkPxKC&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTc2MjA5MzUzODAxMTIxOSwiYXNzZXRfYWdlX2RheXMiOjUwLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;_nc_gid=ZH8WeTU78niS8S81kpErqw&amp;_nc_ss=79289&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQOXePl1tLVloou-pUkAd85uUV7a_G8jGPrrtERwJ7EZqQ&amp;oe=6ADB90F6" target="_blank" download="3277560642453963.mp4">⬇ Télécharger la vidéo</a> <a class="btn" href="../videos/3277560642453963.mp4" target="_blank">▶ Copie locale</a> <a class="btn lp" href="https://stelohealth.com/pages/stream-by-stelo-listicle-v2" target="_blank">Page de vente : stelohealth.com/pages/stream-by-stelo-listicle-v2</a></div></div><div class="pub"><div class="meta"><span class="petit">Michael Morelli - Fitness Coach avec STĒLO · </span>🎬 vidéo · début 15 sep 2026 · depuis 34 j · <b>2 variantes</b> · rang 13 dans la page (était 13)</div>
+<details><summary>4 signs you have a prostate problem (and the last is the worst).
+It&#x27;s easy to say it&#x27;s just getting older, but those are the exact same guys I see ending up with prostate surgery.
+Every year, more and more DHT builds up in the prostate, causing it to grow and grow.
+Then squeezing tighter and tighter on the urethra, the tube urine passes through.
+95% of prostate supplements don&#x27;t even touch DHT. They ma…</summary><pre>4 signs you have a prostate problem (and the last is the worst).
+It&#x27;s easy to say it&#x27;s just getting older, but those are the exact same guys I see ending up with prostate surgery.
+Every year, more and more DHT builds up in the prostate, causing it to grow and grow.
+Then squeezing tighter and tighter on the urethra, the tube urine passes through.
+95% of prostate supplements don&#x27;t even touch DHT. They mask symptoms. The studies show it.
+What do the studies also show.
+That a compound called equol binds to the DHT in your prostate, supporting a healthy prostate size and relieving pressure on the urethra.
+✅ Sleeping through the night + Better flow
+✅ No fear of prostate surgery
+✅ 90-day money-back guarantee
+It&#x27;s 50% off for the next week through my link below 👇</pre></details>
+<div class="tr">🎤 Hook (20 premières secondes) : « Four signs you&#x27;re getting closer to prostate surgery. Number one, you&#x27;re up two, three, up to six times a night to go to the bathroom. Flipping on the blinding lights, wrecking your sleep, and dragging all through the next day. Two, you stand there, wait for it, drop by drop, push a little. Number three. » <span class="petit">(transcription complète sur demande)</span></div><div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1798196131172497" target="_blank">Voir dans la Bibliothèque</a> <a class="btn vid" href="https://video.fcmn1-2.fna.fbcdn.net/o1/v/t2/f2/m412/AQOEtze7AoIE25hg6nPOC0rhmgIWqd1k6krLruxKX1_36vxlRhsr1NbMTmJOWenpk0jf2pgKoUghdTFcJ_km6jJbL-Bo4o0Rnx37nVv83Q.mp4?_nc_cat=110&amp;_nc_oc=AdpwDiFarE1q7N0Iz44JtARWncXAMb-6amHrpCw1_SQOWOuOwrDYqmGFv3tJFmjJzOg&amp;_nc_sid=ef5aa3&amp;_nc_ht=video.fcmn1-2.fna.fbcdn.net&amp;_nc_ohc=Ej7oPklBIOsQ7kNvwFQqt4u&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTcxNjM1MDk4NjcyOTQxMCwiYXNzZXRfYWdlX2RheXMiOjUwLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MTEyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_gid=ZH8WeTU78niS8S81kpErqw&amp;_nc_ss=79289&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQOxe5uHjJHV1zd7EdrFf1bdZxG9k05snuZcPUf3b6ZDpw&amp;oe=6ADBB15C" target="_blank" download="1798196131172497.mp4">⬇ Télécharger la vidéo</a> <a class="btn" href="../videos/1798196131172497.mp4" target="_blank">▶ Copie locale</a> <a class="btn lp" href="http://stelohealth.com/" target="_blank">Page de vente : http://stelohealth.com/</a></div></div><div class="pub"><div class="meta"><span class="petit">Michael Morelli - Fitness Coach avec STĒLO · </span>🎬 vidéo · début 15 sep 2026 · depuis 34 j · <b>2 variantes</b> · rang 19 dans la page (était 19)</div>
+<details><summary>I take DOZENS of supplements and pills. But this is by FAR one of the most important. Why?
+Every year, more and more DHT builds up in the prostate, causing it to grow and grow.
+Then squeezing tighter and tighter on the urethra, the tube urine passes through.
+That&#x27;s why you&#x27;re up during the night to have to pee, can&#x27;t empty completely, and are straining to go.
+And 95% of prostate supplements don&#x27;t …</summary><pre>I take DOZENS of supplements and pills. But this is by FAR one of the most important. Why?
+Every year, more and more DHT builds up in the prostate, causing it to grow and grow.
+Then squeezing tighter and tighter on the urethra, the tube urine passes through.
+That&#x27;s why you&#x27;re up during the night to have to pee, can&#x27;t empty completely, and are straining to go.
+And 95% of prostate supplements don&#x27;t even touch DHT. They mask symptoms. The studies show it.
+What do the studies also show?
+That a compound called equol binds to the DHT in your prostate, supporting a healthy prostate size and relieving pressure on the urethra.
+✅ Sleeping through the night + Better flow
+✅ No fear of prostate surgery
+✅ 90-day money-back guarantee
+It&#x27;s 50% off for the next week through my link below 👇</pre></details>
+<div class="tr">🎤 Hook (20 premières secondes) : « I spend more on peptides and bioregulators than most people spend on their groceries. And the one that changed my life? This. I&#x27;m not exaggerating. This is what I take on any given day. Peptides, bioregulators, and longevity compounds of most people have never even heard of. And the one that changed my life the most? This. » <span class="petit">(transcription complète sur demande)</span></div><div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1696380824770059" target="_blank">Voir dans la Bibliothèque</a> <a class="btn vid" href="https://video.fcmn1-1.fna.fbcdn.net/o1/v/t2/f2/m412/AQNLMI3AC8Epw1-FYM9gjJoNwMUtLMwRbDJai6qIh7qSmbEjDa0nxPnR6Ts-1iGQDO_OKf54Ftnr4ZQoJHUfFwrV4Z2R_brJy_4Qe_uCRA.mp4?_nc_cat=106&amp;_nc_oc=AdqMzJrycuC2q56GSmPWIlty-bwb-V4sWkvX37LIe-XEz-gxBev9q4dzxm1fg9igG2U&amp;_nc_sid=ef5aa3&amp;_nc_ht=video.fcmn1-1.fna.fbcdn.net&amp;_nc_ohc=umpTYosRinQQ7kNvwF5djV8&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6ODE0ODQ5MjY4MzUxOTYyLCJhc3NldF9hZ2VfZGF5cyI6NTAsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo5NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_gid=ZH8WeTU78niS8S81kpErqw&amp;_nc_ss=79289&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQNwxi8rzet30P0bCTDCC0tYVPzR3-ACslHDqWiMMj7yJw&amp;oe=6ADB92B4" target="_blank" download="1696380824770059.mp4">⬇ Télécharger la vidéo</a> <a class="btn" href="../videos/1696380824770059.mp4" target="_blank">▶ Copie locale</a> <a class="btn lp" href="https://stelohealth.com/pages/stream-by-stelo-listicle-v2" target="_blank">Page de vente : stelohealth.com/pages/stream-by-stelo-listicle-v2</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🎬 vidéo · début 22 mai 2026 · depuis 150 j · rang 27 dans la page (était 20)</div>
+<details><summary>Saw palmetto, pumpkin seed, beta-sitosterol? They were never going to work.
+Why? The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And h…</summary><pre>Saw palmetto, pumpkin seed, beta-sitosterol? They were never going to work.
+Why? The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And how do prescription meds solve this?
+By killing your DHT completely.
+So how do you target DHT without killing your sex drive?
+It&#x27;s through a compound called Equol.
+It binds to the DHT ALREADY made, to just to stop it from binding to the prostate.
+All while it&#x27;s still there, doing it&#x27;s job.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+Our Father&#x27;s Day Sale has sold out every year.
+Click the link to check availability</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1433634058447001" target="_blank">Voir dans la Bibliothèque</a> <a class="btn vid" href="https://video.fcmn1-3.fna.fbcdn.net/o1/v/t2/f2/m412/AQPml6LMTDOyb5k3X3Qj0kdhRBqK_NzCwD0z0yZ4uVCq9Qe4cRjFDhusZS4JNu-4kMMYEPl8ChoU-woGsh8WArHPTMJy_ljuYhUXBXx5fw.mp4?_nc_cat=100&amp;_nc_oc=Adrw3Nz6vYdBmf9T1urAjiqp5atLZXQqWaoA2JDVR2k5bVmlWMU0zKPQmF9FuG-Uu7k&amp;_nc_sid=ef5aa3&amp;_nc_ht=video.fcmn1-3.fna.fbcdn.net&amp;_nc_ohc=Yy3wRbTkMgIQ7kNvwECmHro&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTUyNzQ5MDI0ODk1NDk1MywiYXNzZXRfYWdlX2RheXMiOjE1MSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjEwOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_gid=ZH8WeTU78niS8S81kpErqw&amp;_nc_ss=79289&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQNt_lVfchVYbghmnwhoyb7gs3BN3hVCJ6owEwaBn5Cbsg&amp;oe=6ADBA512" target="_blank" download="1433634058447001.mp4">⬇ Télécharger la vidéo</a> <a class="btn lp" href="https://stelohealth.com/pages/listiclev1" target="_blank">Page de vente : stelohealth.com/pages/listiclev1</a></div></div><div class="pub"><div class="meta"><span class="petit">Aaronsbetterbody avec STĒLO · </span>🎬 vidéo · début 16 sep 2026 · depuis 33 j · rang 8 dans la page (était 8)</div>
+<details><summary>Your health, your strength, your future. 💪
+Take care of your body today so you can keep showing up stronger tomorrow. STĒLO is part of my daily wellness routine for supporting men’s health and healthy aging.
+Invest in yourself. Start today. 🔥
+#MensHealth #HealthyAging #MensWellness #WellnessJourney #STELO</summary><pre>Your health, your strength, your future. 💪
+Take care of your body today so you can keep showing up stronger tomorrow. STĒLO is part of my daily wellness routine for supporting men’s health and healthy aging.
+Invest in yourself. Start today. 🔥
+#MensHealth #HealthyAging #MensWellness #WellnessJourney #STELO</pre></details>
+<div class="tr">🎤 Hook (20 premières secondes) : « Waking up multiple times a night to use the bathroom, struggling to fully empty your bladder or noticing your flow isn&#x27;t as strong as it used to be. Don&#x27;t just write it off as aging. As men age, DHT can contribute to prostate growth, putting pressure on the bladder and urethra and disrupting your sleep. And poor sleep can hurt recovery. » <span class="petit">(transcription complète sur demande)</span></div><div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1023093144019158" target="_blank">Voir dans la Bibliothèque</a> <a class="btn vid" href="https://video.fcmn1-2.fna.fbcdn.net/o1/v/t2/f2/m367/AQPsYzRmDD6zrHvnkLnGVCjUL92halr6OPvsSM3eiga9dPz4Yz7hzQt17pZLqa9RbsoGjyqXqcZdps5mrsNFseX4OejN24ZDQiw5hWjv5w.mp4?_nc_cat=111&amp;_nc_oc=AdqZnbyCjcA5FYHeaCJGN66rqEUnQG-yVMr1nEpPPDFLMNbDWWwj_NuXP8367La7fwE&amp;_nc_sid=ef5aa3&amp;_nc_ht=video.fcmn1-2.fna.fbcdn.net&amp;_nc_ohc=QlycptLAhUYQ7kNvwHFjKiw&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl8zNjBwIiwieHB2X2Fzc2V0X2lkIjoxMDIzNzI4MzY0MDM4MDQwLCJhc3NldF9hZ2VfZGF5cyI6MzYsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjo0OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_gid=ZH8WeTU78niS8S81kpErqw&amp;_nc_ss=79289&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQMaEVmKDmjnA-F2-BY85A07ZhYoPMB0IAwcHVFzB7Zrdg&amp;oe=6ADB8993" target="_blank" download="1023093144019158.mp4">⬇ Télécharger la vidéo</a> <a class="btn" href="../videos/1023093144019158.mp4" target="_blank">▶ Copie locale</a> <a class="btn lp" href="https://stelohealth.com/pages/stream-by-stelo-listicle-v2" target="_blank">Page de vente : stelohealth.com/pages/stream-by-stelo-listicle-v2</a></div></div><div class="pub"><div class="meta"><span class="petit">OAKED avec STĒLO · </span>🎬 vidéo · début 19 sep 2026 · depuis 30 j · rang 16 dans la page (était 17)</div>
+<details><summary>After every prostate supplement failed, I thought something was wrong with my body until I figured out what was REALLY happening.
+It wasn&#x27;t my diet. (There&#x27;s ripped guys getting up 5x a night)
+It wasn&#x27;t my age (There&#x27;s 80 year olds sleeping through the night)
+The nighttime bathroom trips AREN&#x27;T your fault. It&#x27;s because of 1 hormone causing everything called DHT.
+DHT is a hormone that&#x2…</summary><pre>After every prostate supplement failed, I thought something was wrong with my body until I figured out what was REALLY happening.
+It wasn&#x27;t my diet. (There&#x27;s ripped guys getting up 5x a night)
+It wasn&#x27;t my age (There&#x27;s 80 year olds sleeping through the night)
+The nighttime bathroom trips AREN&#x27;T your fault. It&#x27;s because of 1 hormone causing everything called DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up in your prostate causing tissue overgrowth, then squeezing on your bladder and urethra.
+Next thing you know you&#x27;re up 5+ times a night.
+And not a single supplement that you tried actually stops DHT from building in your prostate.
+And how do prescription meds solve this?
+By killing your DHT completely.
+So how do you target DHT without killing your sex drive?
+It&#x27;s through a compound called Equol.
+It binds to the DHT ALREADY made to stop it from binding to the prostate.
+All while the DHT is still there, doing it&#x27;s job. It&#x27;s called DHT binding technology.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+Here&#x27;s a link to a news article showing it&#x27;s clinical studies 👇</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1462707345761237" target="_blank">Voir dans la Bibliothèque</a> <a class="btn vid" href="https://video.fcmn1-3.fna.fbcdn.net/o1/v/t2/f2/m412/AQOddTD6EGEVLin5LoVDmrVTKEIGC5o016U-IysdiK1BZTD3uJUFLRp68Q8TMPa6npmQ2Z-lFfTRsOSC0StDZkHuJEvI80GpyAiuaN-dNg.mp4?_nc_cat=106&amp;_nc_oc=Ado37wFbXS-YoLKVsEcbnm3edCa3fWea6tL95HVm8Bl8RbPAqnXqbyiUZ6ot_5ptGvk&amp;_nc_sid=ef5aa3&amp;_nc_ht=video.fcmn1-3.fna.fbcdn.net&amp;_nc_ohc=a12lg_JmaS4Q7kNvwHZIkPZ&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTMwNTEzMTc4NjAyMDQyMCwiYXNzZXRfYWdlX2RheXMiOjI5LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6ODUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;_nc_gid=ZH8WeTU78niS8S81kpErqw&amp;_nc_ss=79289&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQOI-0KmDBdwNEMxQPafIBtV3tpkejjPHxVMsS6A2gIj5A&amp;oe=6ADB9458" target="_blank" download="1462707345761237.mp4">⬇ Télécharger la vidéo</a> <a class="btn lp" href="https://stelohealth.com/pages/stream-by-stelo-health-4-signs-you-have-a-prostate-problem" target="_blank">Page de vente : stelohealth.com/pages/stream-by-stelo-health-4-sig</a></div></div><div class="pub"><div class="meta"><span class="petit">owen.mckibbin1 avec STĒLO · </span>🎬 vidéo · début 25 sep 2026 · depuis 24 j · rang 10 dans la page (était 12)</div>
+<details><summary>EVERY prostate supplement failed for the same reason. Saw palmetto, pumpkin seed, beta-sitosterol: they all do the same thing;
+Target inflammation. But that&#x27;s not the REAL reason you&#x27;re up 5 times a night turning on the blinding light standing there, straining to get anything out.
+The real answer?: DHT.
+As you age DHT builds up in your prostate making it bigger and bigger, squeezing harder and harder on you…</summary><pre>EVERY prostate supplement failed for the same reason. Saw palmetto, pumpkin seed, beta-sitosterol: they all do the same thing;
+Target inflammation. But that&#x27;s not the REAL reason you&#x27;re up 5 times a night turning on the blinding light standing there, straining to get anything out.
+The real answer?: DHT.
+As you age DHT builds up in your prostate making it bigger and bigger, squeezing harder and harder on your urethra, the tube urine passes through.
+Like a fist around a garden hose.
+But the thing is, the longer you wait, the harder it is to reverse.
+But Stream by Stelo uses Equol, a clinically studied ingredient that BINDS to DHT.
+That way a smaller prostate relieves pressure on bladder helping you sleeping through the night, boost flow, and empty completely.
+It targets the root cause without the prescription med side effects.
+P.S. I wouldn&#x27;t be talking about this if it didn&#x27;t genuinely work. Keep crushing it 💪</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1085032840985568" target="_blank">Voir dans la Bibliothèque</a> <a class="btn vid" href="https://video.fcmn1-4.fna.fbcdn.net/o1/v/t2/f2/m412/AQNNG0a02fWj4DXxiqAHsDtvMu_zXmp6fdgk6QXM0ACeUQwBsmC3eq5qnrwk3eilfjLH7PV9QKkDKZrDxVzRHt2q8uRkJ5WBwsHL8sx_Sw.mp4?_nc_cat=108&amp;_nc_oc=AdrbIJ3Gs-Wo5m1e7pWtG52vkgMcgx7B9W9zzV3L312b_Cod4pDY59mSiaGMME275S8&amp;_nc_sid=ef5aa3&amp;_nc_ht=video.fcmn1-4.fna.fbcdn.net&amp;_nc_ohc=PMJnLPRJvvcQ7kNvwFEAmQx&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTUzMjM1MjAwMTU1MjYyNywiYXNzZXRfYWdlX2RheXMiOjUwLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;_nc_gid=ZH8WeTU78niS8S81kpErqw&amp;_nc_ss=79289&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQOI2nhaV5V6CgnZKI9MTUTE7MBKjwKcgFh9mdbyEqf8GA&amp;oe=6ADB9D06" target="_blank" download="1085032840985568.mp4">⬇ Télécharger la vidéo</a> <a class="btn lp" href="https://www.instagram.com/_u/owen.mckibbin1" target="_blank">Page de vente : www.instagram.com/_u/owen.mckibbin1</a> <a class="btn lp" href="https://stelohealth.com/pages/listicleowen?trybe=46e0180f46e0180f" target="_blank">Page de vente : stelohealth.com/pages/listicleowen?trybe=46e0180f4</a></div></div><div class="pub"><div class="meta"><span class="petit">owen.mckibbin1 avec STĒLO · </span>🎬 vidéo · début 25 sep 2026 · depuis 24 j · rang 15 dans la page (était 18)</div>
+<details><summary>EVERY prostate supplement failed for the same reason. Saw palmetto, pumpkin seed, beta-sitosterol: they all do the same thing;
+Target inflammation. But that&#x27;s not the REAL reason you&#x27;re up 5 times a night turning on the blinding light standing there, straining to get anything out.
+The real answer?: DHT.
+As you age DHT builds up in your prostate making it bigger and bigger, squeezing harder and harder on you…</summary><pre>EVERY prostate supplement failed for the same reason. Saw palmetto, pumpkin seed, beta-sitosterol: they all do the same thing;
+Target inflammation. But that&#x27;s not the REAL reason you&#x27;re up 5 times a night turning on the blinding light standing there, straining to get anything out.
+The real answer?: DHT.
+As you age DHT builds up in your prostate making it bigger and bigger, squeezing harder and harder on your urethra, the tube urine passes through.
+Like a fist around a garden hose.
+But the thing is, the longer you wait, the harder it is to reverse.
+But Stream by Stelo uses Equol, a clinically studied ingredient that BINDS to DHT.
+That way a smaller prostate relieves pressure on bladder helping you sleeping through the night, boost flow, and empty completely.
+It targets the root cause without the prescription med side effects.
+P.S. I wouldn&#x27;t be talking about this if it didn&#x27;t genuinely work. Keep crushing it 💪</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1347505190791046" target="_blank">Voir dans la Bibliothèque</a> <a class="btn vid" href="https://video.fcmn1-1.fna.fbcdn.net/o1/v/t2/f2/m412/AQN9Ejz85VrrBgq9aJUxik5dJaDGkl1TFd2BHf7CtKPxR79-iVqcsWF51tOA2ANWkX0V778PWgKgps--vnhrYllIOK68FNAq-TkT2GUVjg.mp4?_nc_cat=110&amp;_nc_oc=AdpY9cKLQxoVW1p36bp5BFbc0RvKxq5mFDfqey-EYw2e4Td5dSve3X6p409VIpTCCRc&amp;_nc_sid=ef5aa3&amp;_nc_ht=video.fcmn1-1.fna.fbcdn.net&amp;_nc_ohc=O1x5x3dTW04Q7kNvwHEuWUS&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTc2MDY0NDk4MTgxMTA5NiwiYXNzZXRfYWdlX2RheXMiOjUwLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&amp;ccb=17-1&amp;_nc_gid=ZH8WeTU78niS8S81kpErqw&amp;_nc_ss=79289&amp;_nc_map=urlgen_bucketless&amp;_nc_zt=28&amp;oh=00_AQN0fSwQLudjOJe4pFQWco5Do6uKYPKAf762_lK75r5KLA&amp;oe=6ADBB310" target="_blank" download="1347505190791046.mp4">⬇ Télécharger la vidéo</a> <a class="btn lp" href="https://www.instagram.com/_u/owen.mckibbin1" target="_blank">Page de vente : www.instagram.com/_u/owen.mckibbin1</a> <a class="btn lp" href="https://stelohealth.com/pages/listicleowen?trybe=495645b1" target="_blank">Page de vente : stelohealth.com/pages/listicleowen?trybe=495645b1</a></div></div>
+<h2>Autres pubs récoltées (19) — texte complet</h2>
+<div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 25 mai 2026 · depuis 147 j · <b>3 variantes</b> · rang 4 dans la page (était 4)</div>
+<details><summary>Saw palmetto, pumpkin seed, beta-sitosterol, they were never going to work.
+Why? The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And h…</summary><pre>Saw palmetto, pumpkin seed, beta-sitosterol, they were never going to work.
+Why? The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And how do prescription meds solve this?
+By killing your DHT completely.
+So how do you target DHT without killing your sex drive?
+It&#x27;s through a compound called Equol.
+It binds to the DHT ALREADY made, to just to stop it from binding to the prostate.
+All while it&#x27;s still there, doing it&#x27;s job.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+Our Father&#x27;s Day Sale has sold out every year.
+Click the link to check availability
+STELOHEALTH.COM
+Targeting the Root Cause WITHOUT the Nasty Side effects
+Stream uses equol, a clinically studied ingredient that helps support your prostate and bladder naturally.
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1000422199112453" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/listiclev1" target="_blank">Page de vente : stelohealth.com/pages/listiclev1</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 23 fév 2026 · depuis 238 j · <b>2 variantes</b> · rang 2 dans la page (était 3)</div>
+<details><summary>Our proprietary formula is consumer-tested with phenomenal results, and contains researched ingredients shown to:
+➕ Support prostate health and male reproductive wellness
+➕ Relieve urinary discomfort and support bladder function
+➕ Help sleep through the night
+➕ 60-day money back guarantee.
+But don&#x27;t believe us, believe the thousands of others that have tried.
+⭐⭐⭐⭐⭐
+“It was like I was completely back to normal. C…</summary><pre>Our proprietary formula is consumer-tested with phenomenal results, and contains researched ingredients shown to:
+➕ Support prostate health and male reproductive wellness
+➕ Relieve urinary discomfort and support bladder function
+➕ Help sleep through the night
+➕ 60-day money back guarantee.
+But don&#x27;t believe us, believe the thousands of others that have tried.
+⭐⭐⭐⭐⭐
+“It was like I was completely back to normal. Complete game changer for my marriage.”
+– Corbin C.
+⭐⭐⭐⭐⭐
+“By far the best prostate supplement I’ve seen. It&#x27;s helped improve my urine flow and reduce bathroom trips. A friend gave it to me to try, and I&#x27;ve been using it ever since.”
+–Curtis C.
+STELOHEALTH.COM
+Get 25% off and a FREE travel vial + jar
+Clinically studied ingredients designed to support healthy prostate function, better flow, and uninterrupted sleep—without harsh side effects.
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1912866596255607" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/products/stream-welcome-kit" target="_blank">Page de vente : stelohealth.com/products/stream-welcome-kit</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 18 mai 2026 · depuis 154 j · <b>2 variantes</b> · rang 1 dans la page</div>
+<details><summary>Saw palmetto, pumpkin seed, beta-sitosterol? they were never going to work.
+Why? The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And h…</summary><pre>Saw palmetto, pumpkin seed, beta-sitosterol? they were never going to work.
+Why? The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And how do prescription meds solve this?
+By killing your DHT completely.
+So how do you target DHT without killing your sex drive?
+It&#x27;s through a compound called Equol.
+It binds to the DHT ALREADY made, to just to stop it from binding to the prostate.
+All while it&#x27;s still there, doing it&#x27;s job.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+Our Father&#x27;s Day Sale has sold out every year.
+Click the link to check availability
+STELOHEALTH.COM
+Every Prostate Supplement Failed Because of This
+Stream is built around equol, a clinically studies natural compound formulated to support urinary and prostate health.
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1806707460313410" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/listiclev1" target="_blank">Page de vente : stelohealth.com/pages/listiclev1</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 22 mai 2026 · depuis 150 j · <b>2 variantes</b> · rang 1 dans la page (était 2)</div>
+<details><summary>Japanese men have 73% less prostate problems with out taking finasteride.
+The reason?
+It&#x27;s because their diet helps them produce a compound in your body called Equol.
+Equol targets DHT, a hormone that in makes your prostate enlarge, then squeezing on your bladder.
+All while keeping your sex drive stays intact and your edge stays sharp.
+But the problem?
+Only 23% of American men produce it.
+Japenese men on the oth…</summary><pre>Japanese men have 73% less prostate problems with out taking finasteride.
+The reason?
+It&#x27;s because their diet helps them produce a compound in your body called Equol.
+Equol targets DHT, a hormone that in makes your prostate enlarge, then squeezing on your bladder.
+All while keeping your sex drive stays intact and your edge stays sharp.
+But the problem?
+Only 23% of American men produce it.
+Japenese men on the other hand?
+67% of them produce it.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+STELOHEALTH.COM
+Targeting the Root Cause WITHOUT the Nasty Side effects
+Stream uses equol, a clinically studied ingredient that helps support your prostate and bladder naturally.
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=4333859843426160" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/listiclev1" target="_blank">Page de vente : stelohealth.com/pages/listiclev1</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 23 mai 2026 · depuis 149 j · <b>2 variantes</b> · rang 11 dans la page (était 11)</div>
+<details><summary>Saw palmetto, pumpkin seed, beta sitosterol were NEVER going to work. But the reason?
+It&#x27;s because what&#x27;s actually causing the problem.
+Which isn&#x27;t &quot;old age&quot;, &quot;diet&quot;, or even &quot;inflammation&quot;.
+While they ARE factors, the main cause is DHT.
+As men age, your body converts testosterone into DHT, a more potent form of testosterone to make up for its declining levels.
+But all the…</summary><pre>Saw palmetto, pumpkin seed, beta sitosterol were NEVER going to work. But the reason?
+It&#x27;s because what&#x27;s actually causing the problem.
+Which isn&#x27;t &quot;old age&quot;, &quot;diet&quot;, or even &quot;inflammation&quot;.
+While they ARE factors, the main cause is DHT.
+As men age, your body converts testosterone into DHT, a more potent form of testosterone to make up for its declining levels.
+But all the DHT builds up in your prostate.
+DHT tells your prostate to grow. As it swells, it squeezes your bladder like a fist around a water balloon.
+Now you can&#x27;t fully empty, so you&#x27;re stuck in a loop — feeling like you have to go, going, then feeling like you have to go again twenty minutes later.
+That&#x27;s why you&#x27;re up at 2AM. It&#x27;s not all age diet or even inflammation. It&#x27;s DHT strangling your prostate, and your prostate strangling your bladder.
+Saw palmetto, beta-sitosterol, pumpkin seed oil, every &quot;men&#x27;s prostate blend&quot; on the shelf — They try &quot;Reduce inflammation.&quot; to make the swelling slightly more bearable.
+None of them target the DHT causing it
+That&#x27;s like icing a swollen knee while you keep running on it.
+Stream doesn&#x27;t.
+Its hero ingredient — equol — is something that men produce naturally in the gut already. But only 23% of men make it in their body, and small amounts.
+Rather than shutting DHT down completley and it&#x27;s function, Equol binds to DHT already made, locking it up before it can ever reach your prostate. All while keeping your sex drive stays intact and your edge stays sharp.
+No more growth, no squeezing, and in 3-6 weeks you&#x27;re sleeping through the night.
+Every year our father&#x27;s day sale runs out of stock IN DAYS.
+Last chance before it happens again.
+STELOHEALTH.COM
+Targeting the Root Cause WITHOUT the Nasty Side effects
+Stream uses equol, a clinically studied ingredient that helps support your prostate and bladder naturally.
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1724732145203902" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/listiclev1" target="_blank">Page de vente : stelohealth.com/pages/listiclev1</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 23 mai 2026 · depuis 149 j · <b>2 variantes</b> · rang 17 dans la page (était 16)</div>
+<details><summary>Prescription meds aren&#x27;t worth the side effects, but every supplement you&#x27;ve tried has failed you.
+Why didn&#x27;t any of them work though? It&#x27;s simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate…</summary><pre>Prescription meds aren&#x27;t worth the side effects, but every supplement you&#x27;ve tried has failed you.
+Why didn&#x27;t any of them work though? It&#x27;s simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And how do prescription meds solve this?
+By killing your DHT completely.
+So how do you target DHT without killing your sex drive?
+It&#x27;s through a compound called Equol.
+It binds to the DHT ALREADY made, to just to stop it from binding to the prostate.
+All while it&#x27;s still there, doing it&#x27;s job.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+Our Father&#x27;s Day Sale has sold out every year.
+Click the link to check availability
+STELOHEALTH.COM
+Nighttime Bathroom Trips But Hate the Meds?
+Stream uses equol, a clinically studied ingredient that helps support your prostate and bladder naturally.
+See Details</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1353057780209638" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/listiclev1" target="_blank">Page de vente : stelohealth.com/pages/listiclev1</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 19 juin 2026 · depuis 122 j · <b>2 variantes</b> · rang 14 dans la page (était 14)</div>
+<details><summary>Saw palmetto, pumpkin seed, beta-sitosterol? They were never going to work. Why?
+The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And h…</summary><pre>Saw palmetto, pumpkin seed, beta-sitosterol? They were never going to work. Why?
+The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And how do prescription meds solve this?
+By killing your DHT completely.
+So how do you target DHT without killing your sex drive?
+It&#x27;s through a compound called Equol.
+It binds to the DHT ALREADY made, to just to stop it from binding to the prostate.
+All while it&#x27;s still there, doing it&#x27;s job.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+Our Father&#x27;s Day Sale has sold out every year.
+Click the link to check availability
+STELOHEALTH.COM
+Why Every Prostate Supplement Failed You
+Stream contains equol, a studied natural ingredient that helps support a healthy prostate and bladder
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1352902560056889" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/listiclev1" target="_blank">Page de vente : stelohealth.com/pages/listiclev1</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 15 sep 2026 · depuis 34 j · <b>2 variantes</b> · rang 9 dans la page (était 9)</div>
+<details><summary>STELOHEALTH.COM
+Learn More</summary><pre>STELOHEALTH.COM
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=963643660069984" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/listiclev1" target="_blank">Page de vente : stelohealth.com/pages/listiclev1</a></div></div><div class="pub"><div class="meta"><span class="petit">Lazer The Conservative avec STĒLO · </span>🖼 image · début 21 sep 2026 · depuis 28 j · <b>2 variantes</b> · rang 5 dans la page (était 5)</div>
+<details><summary>Top Urologists tested 27 prostate health supplement. And what they found about the ingredients might surprise you.
+Look at the ingredients on the prostate supplement bottles you have sitting in your drawer.
+They&#x27;re ALL the same.
+Saw Palmetto, Beta-sitosterol, Pumpkin seed, Pygeum, etc. And they all failed you for the SAME reason.
+And it&#x27;s because all of these ingredients marketers have been recycling for ye…</summary><pre>Top Urologists tested 27 prostate health supplement. And what they found about the ingredients might surprise you.
+Look at the ingredients on the prostate supplement bottles you have sitting in your drawer.
+They&#x27;re ALL the same.
+Saw Palmetto, Beta-sitosterol, Pumpkin seed, Pygeum, etc. And they all failed you for the SAME reason.
+And it&#x27;s because all of these ingredients marketers have been recycling for years target &quot;inflammation&quot;
+But inflammation isn&#x27;t the problem. Actual prostate size is.
+And here&#x27;s what they don&#x27;t tell you about it:
+This happens from a hormone called DHT that binds to and builds up in the prostate.
+This causes cell overgrowth, causing the prostate to get bigger and bigger,
+squeezing the urethra and bladder harder and harder.
+But there&#x27;s a compound called equol that uses &quot;DHT binding technology&quot;
+It binds to DHT before it can bind to the prostate supporting a healthy prostate size.
+Research shows it&#x27;s 93% more effective than other prostate health ingredients.
+Check the study to learn more about equol 👇
+👉https://theprostatejournal.com/👈
+THEPROSTATEJOURNAL.COM
+27 Prostate Supplements Studied. This Was #1
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1085725054388510" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://theprostatejournal.com/👈" target="_blank">Page de vente : theprostatejournal.com/👈</a> <a class="btn lp" href="https://theprostatejournal.com/" target="_blank">Page de vente : theprostatejournal.com/</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 21 sep 2026 · depuis 28 j · <b>2 variantes</b> · rang 12 dans la page (était 10)</div>
+<details><summary>PLEASE stop using saw palmetto, pumpkin seed, beta-sitosterol. They aren&#x27;t going to work. Why?
+The reason is simple:
+None of these &quot;proven&quot; ingredients target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up in your prostate causing tissue overgrowth, then squeezing o…</summary><pre>PLEASE stop using saw palmetto, pumpkin seed, beta-sitosterol. They aren&#x27;t going to work. Why?
+The reason is simple:
+None of these &quot;proven&quot; ingredients target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up in your prostate causing tissue overgrowth, then squeezing on your bladder and urethra.
+Next thing you know you&#x27;re up 5+ times a night.
+And how do prescription meds solve this?
+By killing your DHT completely.
+So how do you target DHT without killing your sex drive?
+It&#x27;s through a compound called Equol.
+It binds to the DHT ALREADY made, to just to stop it from binding to the prostate.
+All while the DHT is still there, doing it&#x27;s job.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+Here&#x27;s a link to a news article showing it&#x27;s clinical studies 👇
+STELOHEALTH.COM
+Every Prostate Health Supplement Failed For the Same Reason
+Stream uses a studied compound Japanese men have had access to for centuries that supports the prostate and bladder
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1630720765077628" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/listiclev1" target="_blank">Page de vente : stelohealth.com/pages/listiclev1</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 3 oct 2026 · depuis 16 j · <b>2 variantes</b> · rang 24 dans la page (était 26)</div>
+<details><summary>Top Urologists tested EVERY prostate health supplement. And what they found about the ingredients might surprise you.
+Look at the ingredients on the prostate supplement bottles you have sitting in your drawer.
+They&#x27;re ALL the same.
+Saw Palmetto, Beta-sitosterol, Pumpkin seed, Pygeum, etc. And they all failed you for the SAME reason.
+And it&#x27;s because all of these ingredients marketers have been recycling for…</summary><pre>Top Urologists tested EVERY prostate health supplement. And what they found about the ingredients might surprise you.
+Look at the ingredients on the prostate supplement bottles you have sitting in your drawer.
+They&#x27;re ALL the same.
+Saw Palmetto, Beta-sitosterol, Pumpkin seed, Pygeum, etc. And they all failed you for the SAME reason.
+And it&#x27;s because all of these ingredients marketers have been recycling for years target &quot;inflammation&quot;
+But inflammation isn&#x27;t the problem. Actual prostate size is.
+And here&#x27;s what they don&#x27;t tell you about it:
+This happens from a hormone called DHT that binds to and builds up in the prostate.
+This causes cell overgrowth, causing the prostate to get bigger and bigger,
+squeezing the urethra and bladder harder and harder.
+But there&#x27;s a compound called equol that uses &quot;DHT binding technology&quot;
+It binds to DHT before it can bind to the prostate supporting a healthy prostate size.
+Research shows it&#x27;s 93% more effective than other prostate health ingredients.
+Check the study to learn more about equol 👇
+👉https://theprostatejournal.com/👈
+THEPROSTATEJOURNAL.COM
+17 Prostate Supplements Studied. This Was #1
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=2272328113568637" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://theprostatejournal.com/👈" target="_blank">Page de vente : theprostatejournal.com/👈</a> <a class="btn lp" href="https://theprostatejournal.com/" target="_blank">Page de vente : theprostatejournal.com/</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 18 mai 2026 · depuis 154 j · rang 7 dans la page (était 6)</div>
+<details><summary>Saw palmetto, pumpkin seed, beta-sitosterol? they were never going to work.
+Why? The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And h…</summary><pre>Saw palmetto, pumpkin seed, beta-sitosterol? they were never going to work.
+Why? The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And how do prescription meds solve this?
+By killing your DHT completely.
+So how do you target DHT without killing your sex drive?
+It&#x27;s through a compound called Equol.
+It binds to the DHT ALREADY made, to just to stop it from binding to the prostate.
+All while it&#x27;s still there, doing it&#x27;s job.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+Our Father&#x27;s Day Sale has sold out every year.
+Click the link to check availability
+STELOHEALTH.COM
+Every Prostate Supplement Failed Because of This
+Stream is built around equol, a clinically studies natural compound formulated to support urinary and prostate health.
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1678400966682102" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/listiclev1" target="_blank">Page de vente : stelohealth.com/pages/listiclev1</a></div></div><div class="pub"><div class="meta"><span class="petit">Lazer The Conservative avec STĒLO · </span>🖼 image · début 16 sep 2026 · depuis 33 j · rang 21 dans la page (était 23)</div>
+<details><summary>Top Urologists tested 27 prostate health supplement. And what they found about the ingredients might surprise you.
+Look at the ingredients on the prostate supplement bottles you have sitting in your drawer.
+They&#x27;re ALL the same.
+Saw Palmetto, Beta-sitosterol, Pumpkin seed, Pygeum, etc. And they all failed you for the SAME reason.
+And it&#x27;s because all of these ingredients marketers have been recycling for ye…</summary><pre>Top Urologists tested 27 prostate health supplement. And what they found about the ingredients might surprise you.
+Look at the ingredients on the prostate supplement bottles you have sitting in your drawer.
+They&#x27;re ALL the same.
+Saw Palmetto, Beta-sitosterol, Pumpkin seed, Pygeum, etc. And they all failed you for the SAME reason.
+And it&#x27;s because all of these ingredients marketers have been recycling for years target &quot;inflammation&quot;
+But inflammation isn&#x27;t the problem. Actual prostate size is.
+And here&#x27;s what they don&#x27;t tell you about it:
+This happens from a hormone called DHT that binds to and builds up in the prostate.
+This causes cell overgrowth, causing the prostate to get bigger and bigger,
+squeezing the urethra and bladder harder and harder.
+But there&#x27;s a compound called equol that uses &quot;DHT binding technology&quot;
+It binds to DHT before it can bind to the prostate supporting a healthy prostate size.
+Research shows it&#x27;s 93% more effective than other prostate health ingredients.
+Check the study to learn more about equol 👇
+👉https://theprostatejournal.com/👈
+THEPROSTATEJOURNAL.COM
+27 Prostate Supplements Studied. This Was #1
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1694506888321483" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://theprostatejournal.com/👈" target="_blank">Page de vente : theprostatejournal.com/👈</a> <a class="btn lp" href="https://theprostatejournal.com/" target="_blank">Page de vente : theprostatejournal.com/</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 21 sep 2026 · depuis 28 j · rang 3 dans la page</div>
+<details><summary>Saw palmetto, pumpkin seed, beta-sitosterol? they were never going to work.
+Why? The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And h…</summary><pre>Saw palmetto, pumpkin seed, beta-sitosterol? they were never going to work.
+Why? The reason is simple:
+None of these &quot;natural ingredients&quot; target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up your prostate causing tissue overgrowth, then squeezing on your bladder.
+And how do prescription meds solve this?
+By killing your DHT completely.
+So how do you target DHT without killing your sex drive?
+It&#x27;s through a compound called Equol.
+It binds to the DHT ALREADY made, to just to stop it from binding to the prostate.
+All while it&#x27;s still there, doing it&#x27;s job.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+Our Father&#x27;s Day Sale has sold out every year.
+Click the link to check availability
+STELOHEALTH.COM
+Every Prostate Supplement Failed Because of This
+Stream is built around equol, a clinically studies natural compound formulated to support urinary and prostate health.
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=4686093265051016" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/stream-by-stelo-listicle-v2" target="_blank">Page de vente : stelohealth.com/pages/stream-by-stelo-listicle-v2</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 24 sep 2026 · depuis 25 j · rang 26 dans la page (était 22)</div>
+<details><summary>PLEASE stop trying saw palmetto, pumpkin seed, beta-sitosterol. They aren&#x27;t going to work. Why?
+The reason is simple:
+None of these &quot;proven&quot; ingredients target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up in your prostate causing tissue overgrowth, then squeezing …</summary><pre>PLEASE stop trying saw palmetto, pumpkin seed, beta-sitosterol. They aren&#x27;t going to work. Why?
+The reason is simple:
+None of these &quot;proven&quot; ingredients target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up in your prostate causing tissue overgrowth, then squeezing on your bladder and urethra.
+Next thing you know you&#x27;re up 5+ times a night.
+And how do prescription meds solve this?
+By killing your DHT completely.
+So how do you target DHT without killing your sex drive?
+It&#x27;s through a compound called Equol.
+It binds to the DHT ALREADY made, to just to stop it from binding to the prostate.
+All while the DHT is still there, doing it&#x27;s job.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+Here&#x27;s a link to a news article showing it&#x27;s clinical studies 👇
+https://stelohealth.com/pages/stream-by-stelo-listicle-v2
+STELOHEALTH.COM
+Why Every Prostate Supplement Didn&#x27;t Work
+Stream by Stelo includes equol, something your body is SUPPOSED to make.
+En savoir plus</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1444018027670402" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/stream-by-stelo-listicle-v2" target="_blank">Page de vente : stelohealth.com/pages/stream-by-stelo-listicle-v2</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 24 sep 2026 · depuis 25 j · rang 23 dans la page (était 24)</div>
+<details><summary>PLEASE stop trying saw palmetto, pumpkin seed, beta-sitosterol. They aren&#x27;t going to work. Why?
+The reason is simple:
+None of these &quot;proven&quot; ingredients target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up in your prostate causing tissue overgrowth, then squeezing …</summary><pre>PLEASE stop trying saw palmetto, pumpkin seed, beta-sitosterol. They aren&#x27;t going to work. Why?
+The reason is simple:
+None of these &quot;proven&quot; ingredients target DHT.
+DHT is a hormone that&#x27;s 5x more powerful that testosterone.
+And your body makes more of it as you age to make up for less testosterone.
+But the problem?
+All this DHT builds up in your prostate causing tissue overgrowth, then squeezing on your bladder and urethra.
+Next thing you know you&#x27;re up 5+ times a night.
+And how do prescription meds solve this?
+By killing your DHT completely.
+So how do you target DHT without killing your sex drive?
+It&#x27;s through a compound called Equol.
+It binds to the DHT ALREADY made, to just to stop it from binding to the prostate.
+All while the DHT is still there, doing it&#x27;s job.
+Support your prostate with something natural that ACTUALLY targets the root cause.
+Here&#x27;s a link to a news article showing it&#x27;s clinical studies 👇
+https://stelohealth.com/pages/stream-by-stelo-listicle-v2
+STELOHEALTH.COM
+Why Every Prostate Supplement Didn&#x27;t Work
+Stream by Stelo includes equol, something your body is SUPPOSED to make.
+En savoir plus</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=4013696112271503" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/stream-by-stelo-listicle-v2" target="_blank">Page de vente : stelohealth.com/pages/stream-by-stelo-listicle-v2</a></div></div><div class="pub"><div class="meta"><span class="petit">Lazer The Conservative avec STĒLO · </span>🖼 image · début 3 oct 2026 · depuis 16 j · rang 20 dans la page (était 21)</div>
+<details><summary>Top Urologists tested 27 prostate health supplement. And what they found about the ingredients might surprise you.
+Look at the ingredients on the prostate supplement bottles you have sitting in your drawer.
+They&#x27;re ALL the same.
+Saw Palmetto, Beta-sitosterol, Pumpkin seed, Pygeum, etc. And they all failed you for the SAME reason.
+And it&#x27;s because all of these ingredients marketers have been recycling for ye…</summary><pre>Top Urologists tested 27 prostate health supplement. And what they found about the ingredients might surprise you.
+Look at the ingredients on the prostate supplement bottles you have sitting in your drawer.
+They&#x27;re ALL the same.
+Saw Palmetto, Beta-sitosterol, Pumpkin seed, Pygeum, etc. And they all failed you for the SAME reason.
+And it&#x27;s because all of these ingredients marketers have been recycling for years target &quot;inflammation&quot;
+But inflammation isn&#x27;t the problem. Actual prostate size is.
+And here&#x27;s what they don&#x27;t tell you about it:
+This happens from a hormone called DHT that binds to and builds up in the prostate.
+This causes cell overgrowth, causing the prostate to get bigger and bigger,
+squeezing the urethra and bladder harder and harder.
+But there&#x27;s a compound called equol that uses &quot;DHT binding technology&quot;
+It binds to DHT before it can bind to the prostate supporting a healthy prostate size.
+Research shows it&#x27;s 93% more effective than other prostate health ingredients.
+Check the study to learn more about equol 👇
+👉https://theprostatejournal.com/
+STELOHEALTH.COM
+17 Prostate Supplements Studied. This Was #1
+Learn More</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1896874711279177" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://theprostatejournal.com/" target="_blank">Page de vente : theprostatejournal.com/</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 3 oct 2026 · depuis 16 j · rang 25 dans la page (était 25)</div>
+<details><summary>We are so sorry to customers who bought last week. We messed up. So for the next 24 hours we&#x27;re dropping prices down by 50%.
+We can assure you this mistake won&#x27;t happen again.
+If the 50% off deal is not available when you click the link,
+comment below and we&#x27;ll try to let you know when we have another sale!
+👉 https://stelohealth.com/pages/testing-new-pdp
+STELOHEALTH.COM
+We Messed Up: Last Day 50% Off
+S…</summary><pre>We are so sorry to customers who bought last week. We messed up. So for the next 24 hours we&#x27;re dropping prices down by 50%.
+We can assure you this mistake won&#x27;t happen again.
+If the 50% off deal is not available when you click the link,
+comment below and we&#x27;ll try to let you know when we have another sale!
+👉 https://stelohealth.com/pages/testing-new-pdp
+STELOHEALTH.COM
+We Messed Up: Last Day 50% Off
+Stream uses equol, a clinically studied ingredient that helps support your prostate and bladder naturally.
+Acheter</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1071494515658559" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/testing-new-pdp" target="_blank">Page de vente : stelohealth.com/pages/testing-new-pdp</a></div></div><div class="pub"><div class="meta"><span class="petit">STĒLO · </span>🖼 image · début 3 oct 2026 · depuis 16 j · rang 22 dans la page</div>
+<details><summary>Storage fees go up next week so we&#x27;re clearing inventory at 63% off.
+So if you&#x27;ve tried multiple prostate supplements that didn&#x27;t work. None of them targeted DHT (the root cause)
+But you can&#x27;t ignore our clinical studies (which most supplements don&#x27;t have) that show the Equol in our product DOES.
+63% off. Last Day. 90-day money-back guarantee (the just email in kind with no hoops)
+Use code &q…</summary><pre>Storage fees go up next week so we&#x27;re clearing inventory at 63% off.
+So if you&#x27;ve tried multiple prostate supplements that didn&#x27;t work. None of them targeted DHT (the root cause)
+But you can&#x27;t ignore our clinical studies (which most supplements don&#x27;t have) that show the Equol in our product DOES.
+63% off. Last Day. 90-day money-back guarantee (the just email in kind with no hoops)
+Use code &quot;LASTDAY&quot; for 63% OFF
+👉 https://stelohealth.com/pages/testing-new-pdp
+STELOHEALTH.COM
+We Messed Up: Last Day 53% OFF
+Stream uses equol, a clinically studied ingredient that helps support your prostate and bladder naturally.
+Acheter</pre></details>
+<div class="btns"><a class="btn" href="https://www.facebook.com/ads/library/?id=1084057044475609" target="_blank">Voir dans la Bibliothèque</a> <a class="btn lp" href="https://stelohealth.com/pages/testing-new-pdp" target="_blank">Page de vente : stelohealth.com/pages/testing-new-pdp</a></div></div>
+</body></html>
