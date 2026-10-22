@@ -1,5 +1,5 @@
 # Transcriptions des pubs vidéo — UROMEND (toi)
-Mis à jour le 21/10/2026. Source : Bibliothèque publicitaire Meta, transcription locale (faster-whisper small).
+Mis à jour le 22/10/2026. Source : Bibliothèque publicitaire Meta, transcription locale (faster-whisper small).
 
 ## Uromend — début 11 sep 2026 — 3 variante(s) — https://www.facebook.com/ads/library/?id=1371418528494808
 Vidéo : https://video.fcmn1-3.fna.fbcdn.net/o1/v/t2/f2/m412/AQNh-VDOpmq_H_rSGE2lAu8XGLRWoF68-BM2Os95zyaqbpnC1WM5ejjblHDFNydT1TRNcU1IJm3px0qv199riI_R2R5CDUosW5AxBcG7eA.mp4?_nc_cat=110&_nc_oc=AdqAB0sFCte3zbhKjJj7xdyfJl2sdhEpMh_CcHZRzT0zJHlkLKEMx88S-lmakc5R_fU&_nc_sid=ef5aa3&_nc_ht=video.fcmn1-3.fna.fbcdn.net&_nc_ohc=gMZel1PNKtAQ7kNvwFO3ZEI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTIzMTMzMTE5MjUxNTU0MywiYXNzZXRfYWdlX2RheXMiOjM3LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=Ct-cqBl77mDn9-Wu4freeA&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQOJDm1iPBpkDGSh-bkEpgumKwtg1q6gu7lnUFmhWwFbyg&oe=6ADB8E10
