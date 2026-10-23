@@ -1,6 +1,13 @@
 ## In one sentence
 Everly is an ad factory: **≈ 9,300 active ads on 9 Facebook pages** (3 pages at 1,500 each), one product (pumpkin seed oil softgels, ≈ $15 entry price, 3-bottle pack pushed), and the same story endlessly adapted to **4 different pain points**: prostate/nights, kidneys, women's bladder, hair. Uromend has 133.
 
+## Update 10/23/2026: the "doctor" pages are gone
+- **5 of 9 pages dropped to 0 ads in two days**: Dr. Lisa Downing (1,500 on 10/21), Nutritionist Katherine Davis (1,500), Dr. Anastasia Chamberlen (1,600), Elemental Grove (950), NaturaNoura (270). Even when searching **inactive** ads, the Library shows nothing for Dr. Lisa Downing: the history was wiped, which usually happens when Meta removes or restricts a page (here, fake "doctors" and "nutritionists").
+- **Everly total: 9,280 → 3,600 ads (-61%)**. Remaining: Everly (1,400), Rooted Remedies (1,000), Nutragrace (950), Elizabeth Miller (250).
+- What still runs is mostly **one catalog ad**, "Introducing Everly Pumpkin Seed Oil" (hair + nighttime trips + hot flashes), sending straight to the shopeverly.shop product page, duplicated hundreds of times: no more advertorial (fake article) signed by a "doctor".
+- In the search rankings, Everly goes from **25 ads seen to 1** ("saw palmetto": 2nd → 22nd). On "Flomax", Elivora now holds 1st place.
+- Lesson for Uromend: invented "Dr." / "Nutritionist, PhD" personas win fast, but Meta can cut everything at once. Our testimonials must stay real people or clearly fictional characters, with no fake medical title.
+
 ## Marketing angles (from 84 collected ads)
 - **"Stop the Flomax"** (closest to Uromend): "My husband refused Flomax for four years", "There are 3 stages of prostate failure. Stage 1 is Flomax. Stage 3 is a catheter bag", "Tamsulosin relaxes smooth muscle around a prostate that never stops growing". The drug is presented as a trap that hides the real problem (DHT, the hormone that enlarges the prostate) and leads to the catheter or surgery.
 - **Fear of the catheter / surgery**: "My husband wore a catheter bag strapped to his thigh for 19 days", "My husband had prostate surgery 8 weeks ago". The catheter is the recurring horror image, always seen through the wife's eyes.

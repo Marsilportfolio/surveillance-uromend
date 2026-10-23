@@ -1,6 +1,13 @@
 ## En une phrase
 Everly est une usine à pubs : **≈ 9 300 pubs actives sur 9 pages Facebook** (3 pages à 1 500 chacune), un seul produit (huile de graines de courge en softgels, ≈ 15 $ d'appel, pack 3 bouteilles poussé), et le même récit décliné à l'infini vers **4 douleurs différentes** : prostate/nuits, reins, vessie des femmes, cheveux. Uromend en a 133.
 
+## Mise à jour du 23/10/2026 : les pages « docteur » ont disparu
+- **5 pages sur 9 sont tombées à 0 pub en deux jours** : Dr. Lisa Downing (1 500 le 21/10), Nutritionist Katherine Davis (1 500), Dr. Anastasia Chamberlen (1 600), Elemental Grove (950), NaturaNoura (270). Même en cherchant les pubs **inactives**, la Bibliothèque n'affiche plus rien pour Dr. Lisa Downing : l'historique a été effacé, ce qui arrive en général quand Meta supprime ou restreint une page (ici, des faux « docteurs » et « nutritionnistes »).
+- **Total Everly : 9 280 → 3 600 pubs (-61 %)**. Restent Everly (1 400), Rooted Remedies (1 000), Nutragrace (950), Elizabeth Miller (250).
+- Ce qui tourne encore est surtout **une pub catalogue** « Introducing Everly Pumpkin Seed Oil » (cheveux + levers la nuit + bouffées de chaleur) qui envoie directement sur la fiche produit shopeverly.shop, déclinée des centaines de fois : plus d'advertorial (faux article) signé par un « docteur ».
+- Dans les classements de recherche, Everly passe de **25 pubs vues à 1** (« saw palmetto » : 2e → 22e). Sur « Flomax », c'est maintenant Elivora qui tient la 1re place.
+- Leçon pour Uromend : les personnages « Dr. » / « Nutritionist, PhD » inventés font gagner vite, mais Meta peut tout couper d'un coup. Nos témoignages doivent rester de vraies personnes ou des personnages clairement fictifs, sans faux titre médical.
+
 ## Angles marketing (ce qu'on lit dans 84 pubs récoltées)
 - **« Arrêtez le Flomax »** (le plus proche d'Uromend) : « My husband refused Flomax for four years », « There are 3 stages of prostate failure. Stage 1 is Flomax. Stage 3 is a catheter bag », « Tamsulosin relaxes smooth muscle around a prostate that never stops growing ». Le médicament est présenté comme un piège qui cache le vrai problème (la DHT, l'hormone qui fait grossir la prostate) et mène à la sonde urinaire ou à la chirurgie.
 - **La peur de la sonde / de la chirurgie** : « My husband wore a catheter bag strapped to his thigh for 19 days », « My husband had prostate surgery 8 weeks ago ». La sonde est l'image d'horreur récurrente, toujours vue par la femme.
