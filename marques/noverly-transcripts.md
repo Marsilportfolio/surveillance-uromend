@@ -1,5 +1,5 @@
 # Transcriptions des pubs vidéo — Noverly (nattokinase, meme famille qu'Everly)
-Mis à jour le 23/10/2026. Source : Bibliothèque publicitaire Meta, transcription locale (faster-whisper small).
+Mis à jour le 24/10/2026. Source : Bibliothèque publicitaire Meta, transcription locale (faster-whisper small).
 
 ## Mr. Leeroy — début 6 oct 2026 — 7 variante(s) — https://www.facebook.com/ads/library/?id=28540523608945993
 Vidéo : https://video.fcmn1-1.fna.fbcdn.net/o1/v/t2/f2/m412/AQNLnA-bElxgj6ySW85w0gJp15g4jDH4aij4KwVrCmkj5DOc6_AGs30qKIQ9XrV_CZv87efb5TjfAfilNuiKbNBlwv23vXhw1wFN8AS6sg.mp4?_nc_cat=105&_nc_oc=AdrgM3ygtXCyjEii-Cm0OD6fV3E9kkgchge_k25DOJCEsB2v-KR6FFGbTcOQgXdOm9Y&_nc_sid=ef5aa3&_nc_ht=video.fcmn1-1.fna.fbcdn.net&_nc_ohc=C-xCLQnFGoIQ7kNvwEr34xY&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ4NDI2OTA3MzgxOTgzMywiYXNzZXRfYWdlX2RheXMiOjEyLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6ODMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=kkvrDzDer8X0DBmxmNP-ow&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQMRb4_8EBvxVLytaDxxENWnwoqiDUvxv3V21T4oeYtLkw&oe=6ADB8F11

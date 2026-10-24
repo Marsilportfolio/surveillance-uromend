@@ -1,5 +1,5 @@
 # Transcriptions des pubs vidéo — Everly (huile de graines de courge)
-Mis à jour le 23/10/2026. Source : Bibliothèque publicitaire Meta, transcription locale (faster-whisper small).
+Mis à jour le 24/10/2026. Source : Bibliothèque publicitaire Meta, transcription locale (faster-whisper small).
 
 ## Rooted Remedies — début 28 mar 2026 — 5 variante(s) — https://www.facebook.com/ads/library/?id=3852413941728398
 Vidéo : https://video.fcmn1-1.fna.fbcdn.net/o1/v/t2/f2/m412/AQNTVv1PNZo80MUvh1FReisFrbPiUBKGZJPHUD9HEbtk3JAsZGNpiypQyaoqtf7qLVp3wtLJ0BRzJCX75jmZ7TUTrfM9vm2VhqK12EAnng.mp4?_nc_cat=104&_nc_oc=AdrX8aACkcaKnad_xoyhZ1RBYBnDMO8tkm7ojDHAUsBfR1xZXdfJmTwMdo1CIeZhMQk&_nc_sid=ef5aa3&_nc_ht=video.fcmn1-1.fna.fbcdn.net&_nc_ohc=GsdizNSSVJkQ7kNvwEwAY3E&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6OTIwMTE0NTQwNjIxNzM2LCJhc3NldF9hZ2VfZGF5cyI6MjA2LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MTg0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=Ejq-tK1zxpCUlUm9ON7NLw&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQOE3xSUsKEkszl4JGbeJJBmPk7CGL1ydoUZJNMAxgYv_Q&oe=6ADE49D6
