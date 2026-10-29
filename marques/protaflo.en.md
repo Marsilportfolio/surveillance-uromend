@@ -2,6 +2,14 @@
 
 Read: 32 ads (full text) from the Protaflo page, 22 videos, 10 hooks transcribed. New advertiser that appeared on 15 October 2026.
 
+## Update of October 29, 2026
+- **650 active ads in total (+150% in 2 days)**: the Protaflo page goes from 260 to 390 (+50%) and a **second page, "GetProtaflo"** (page 895490980316324, now counted), carries 260. 2nd on "Flomax", 9th on "enlarged prostate". The fastest-rising brand on the radar, 2.2 times Uromend.
+- GetProtaflo text hooks: "Saw palmetto. Beta-sitosterol. The one from the late-night ad you can't even remember. None of them…" ([see](https://www.facebook.com/ads/library/?id=1534612708114895)), "Your doctor says your prostate is enlarged. 🏥" ([see](https://www.facebook.com/ads/library/?id=934980486126416)).
+- **New three-symptom hook** (video [957266354116831](https://www.facebook.com/ads/library/?id=957266354116831)): "If you have that small, sudden leak right after you zip up, that's a choked prostate. If you can't get hard down there, that's a choked prostate. If you wake up at 3am to pee, that's a choked prostate. And if you don't do anything about it, you will never get hard again and you will lose control of your pee." The word "choked" replaces "swollen": the prostate is no longer swollen, it is blocked.
+- **The alcohol counter-intuition** in video ([2317575735700980](https://www.facebook.com/ads/library/?id=2317575735700980)): "Alcohol is bad for your prostate, right? Wrong… Your husband was waking up five times a night to pee. Now he's sleeping through the night… He just unplugged his prostate."
+- **Two sales pages** now: the long video (ptf-vslfb) and a classic product page (ptf-pdpfb-new, ad of October 23 [2234861217296266](https://www.facebook.com/ads/library/?id=2234861217296266)): they are testing the short path.
+- For Uromend: copy the "3 symptoms = 1 cause" structure in 10 seconds, but end on the label (1,400 mg, 6 ingredients) instead of the mystery "microbe".
+
 ## In one sentence
 Protaflo sells a prostate supplement through a **long video sales letter** (VSL, 3 to 5 minutes) saying that saw palmetto, coffee and surgery don't work, and that the real problem is a **"microbe" inside the prostate** that must be cleaned out. 300 ads on 23 October, 350 on 25 October (+17% in 2 days).
 

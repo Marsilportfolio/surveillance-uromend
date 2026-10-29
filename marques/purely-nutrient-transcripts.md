@@ -1,5 +1,5 @@
 # Transcriptions des pubs vidéo — Purely Nutrient (huile de nigelle / black seed)
-Mis à jour le 27/10/2026. Source : Bibliothèque publicitaire Meta, transcription locale (faster-whisper small).
+Mis à jour le 29/10/2026. Source : Bibliothèque publicitaire Meta, transcription locale (faster-whisper small).
 
 ## Purely Nutrient Black Seed — début 16 sep 2026 — 3 variante(s) — https://www.facebook.com/ads/library/?id=1439071141657322
 Vidéo : https://video.fcmn1-2.fna.fbcdn.net/o1/v/t2/f2/m412/AQNAuRqbOFgVsUUbcNSJnat3XTXs7V2jVVWCc9ivdRNnD4LbuIsrXD19Q5yEOZo_uYWgzX8bOKXZFd6NU7ZVWp_adbcv8TpQ91QIZWhJ3Q.mp4?_nc_cat=108&_nc_oc=AdpcS1ZcVjLVqeVM2MarIOlcnnt4OfPN80kTdYVK5AFu1BMJffAyumb_kPj2sngb8XQ&_nc_sid=ef5aa3&_nc_ht=video.fcmn1-2.fna.fbcdn.net&_nc_ohc=lxkV9923RZ0Q7kNvwEOjX4l&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTk2ODIzNTEzMDUzNDU3MCwiYXNzZXRfYWdlX2RheXMiOjQ1LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MzQ1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=jae4zSjL1F_c7C8UQGpNgg&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQP6e58QSbjpbFgJ0jmfVyt5Ll9f7gOWyIXyWJDqjlpXQA&oe=6ADBBA7E

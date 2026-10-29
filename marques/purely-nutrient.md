@@ -1,3 +1,9 @@
+## Mise à jour du 29 octobre 2026 : -75 % et pivot vers le foie
+- **345 → 87 pubs actives en 2 jours (-75 %)** : Black Seed 140 → 40, Purely-Nutrient 83 → 31, Top 10 Holistic Tips 44 → 4, The Ethiopian Journal 61 → 5. La marque sort des 7 classements (elle était 1re sur « Flomax » le 27 octobre).
+- **22 nouvelles vidéos du 24 octobre, presque toutes sur le foie gras** (fatty liver = foie engraissé) : « This is what happens when milk thistle hits your fatty liver versus when thymoquinone does » (4 variantes, [voir](https://www.facebook.com/ads/library/?id=1164530722593621)), « Watch what happens when you put a fatty liver in contact with apple cider vinegar… Now watch… thymoquinone at 4.64 percent » (3 variantes, [voir](https://www.facebook.com/ads/library/?id=1167854579523098)).
+- **Une seule reste prostate**, même mécanique : « Watch what happens when you put a swollen prostate in contact with Flomax. The swelling reduces slightly… but the urethra remains compressed. Now watch what happens when that same prostate tissue comes in contact with thymoquinone at 4.64 percent » (3 variantes, [voir](https://www.facebook.com/ads/library/?id=4647607738814946)).
+- Lecture : les 345 pubs prostate ne tenaient pas ; ils gardent la formule « Watch what happens » (comparaison ingrédient classique contre thymoquinone, dose précise 4,64 %) et changent d'organe. À resurveiller dans 2 relevés : si le foie remonte à 300+, c'est que la mécanique marche mieux que le sujet prostate.
+
 ## En une phrase
 Purely Nutrient vend de l'**huile de nigelle éthiopienne (black seed oil)**, est passé de **0 à 365 pubs actives en un mois** (lancement mi-septembre 2026) sur 5 pages, et occupe la **1re place sur « enlarged prostate » et les places 1-2-3 sur « Flomax »** alors que le texte de ses pubs ne parle même pas de prostate : tout se joue dans la vidéo et le ciblage.
 

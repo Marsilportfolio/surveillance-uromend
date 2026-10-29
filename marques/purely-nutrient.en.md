@@ -1,3 +1,9 @@
+## Update of October 29, 2026: -75% and a pivot to the liver
+- **345 → 87 active ads in 2 days (-75%)**: Black Seed 140 → 40, Purely-Nutrient 83 → 31, Top 10 Holistic Tips 44 → 4, The Ethiopian Journal 61 → 5. The brand drops out of all 7 rankings (it was 1st on "Flomax" on October 27).
+- **22 new videos from October 24, almost all about fatty liver**: "This is what happens when milk thistle hits your fatty liver versus when thymoquinone does" (4 variants, [see](https://www.facebook.com/ads/library/?id=1164530722593621)), "Watch what happens when you put a fatty liver in contact with apple cider vinegar… Now watch… thymoquinone at 4.64 percent" (3 variants, [see](https://www.facebook.com/ads/library/?id=1167854579523098)).
+- **Only one stays on prostate**, same mechanic: "Watch what happens when you put a swollen prostate in contact with Flomax. The swelling reduces slightly… but the urethra remains compressed. Now watch what happens when that same prostate tissue comes in contact with thymoquinone at 4.64 percent" (3 variants, [see](https://www.facebook.com/ads/library/?id=4647607738814946)).
+- Reading: the 345 prostate ads did not hold; they keep the "Watch what happens" formula (classic ingredient vs thymoquinone, precise 4.64% dose) and switch organ. Watch again in 2 snapshots: if the liver climbs back to 300+, the mechanic works better than the prostate topic.
+
 ## In one sentence
 Purely Nutrient sells **Ethiopian black seed oil**, went from **0 to 365 active ads in one month** (launched mid-September 2026) across 5 pages, and holds **#1 on "enlarged prostate" and #1-2-3 on "Flomax"** even though its ad copy doesn't even mention the prostate: everything happens in the video and the targeting.
 

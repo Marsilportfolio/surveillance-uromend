@@ -2,6 +2,14 @@
 
 Lu : 32 pubs (texte complet) de la page Protaflo, 22 vidéos, 10 hooks transcrits. Nouvel annonceur apparu le 15 octobre 2026.
 
+## Mise à jour du 29 octobre 2026
+- **650 pubs actives au total (+150 % en 2 jours)** : la page Protaflo passe de 260 à 390 (+50 %) et une **2e page, « GetProtaflo »** (page 895490980316324, désormais comptée), en porte 260. 2e sur « Flomax », 9e sur « enlarged prostate ». C'est la marque qui monte le plus vite du radar, 2,2 fois Uromend.
+- Accroches texte de GetProtaflo : « Saw palmetto. Beta-sitosterol. The one from the late-night ad you can't even remember. None of them… » ([voir](https://www.facebook.com/ads/library/?id=1534612708114895)), « Your doctor says your prostate is enlarged. 🏥 » ([voir](https://www.facebook.com/ads/library/?id=934980486126416)).
+- **Nouveau hook à trois symptômes** (vidéo [957266354116831](https://www.facebook.com/ads/library/?id=957266354116831)) : « If you have that small, sudden leak right after you zip up, that's a choked prostate. If you can't get hard down there, that's a choked prostate. If you wake up at 3am to pee, that's a choked prostate. And if you don't do anything about it, you will never get hard again and you will lose control of your pee. » Le mot « choked » (étranglée) remplace « swollen » : la prostate n'est plus gonflée, elle est bouchée.
+- **Le contre-pied alcool** en vidéo ([2317575735700980](https://www.facebook.com/ads/library/?id=2317575735700980)) : « Alcohol is bad for your prostate, right? Wrong… Your husband was waking up five times a night to pee. Now he's sleeping through the night… He just unplugged his prostate. »
+- **Deux pages de vente** maintenant : la longue vidéo (ptf-vslfb) et une fiche produit classique (ptf-pdpfb-new, pub du 23 octobre [2234861217296266](https://www.facebook.com/ads/library/?id=2234861217296266)) : ils testent le parcours court.
+- Pour Uromend : copier la structure « 3 symptômes = 1 cause » en 10 secondes, mais finir sur l'étiquette (1 400 mg, 6 ingrédients) au lieu du « microbe » mystère.
+
 ## En une phrase
 Protaflo vend un complément prostate par une **longue vidéo de vente** (VSL = « video sales letter », 3 à 5 minutes) qui dit que le saw palmetto, le café et la chirurgie ne marchent pas, et que le vrai problème est un **« microbe » dans la prostate** à nettoyer. 300 pubs le 23 octobre, 350 le 25 octobre (+17 % en 2 jours).
 
