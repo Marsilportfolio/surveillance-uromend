@@ -57,3 +57,12 @@ Purely Nutrient sells **Ethiopian black seed oil**, went from **0 to 365 active 
 - Ranking **#1 on "enlarged prostate" in one month** with a non-prostate product shows the spot is won with volume and targeting, not relevance: Uromend can take it back with 30-50 videos on the same angle.
 - The "journal / top 10" pages (disguised media) are a clean idea to reuse: a "Men's Night Guide" or "Prostate Health Daily" page publishing tips and ads.
 - To watch: 0 → 365 in a month; if the next count shows 600+, they found a winning video: transcribe and analyze it first.
+
+
+## November 1, 2026 update: rebound to 302 ads, the prostate stays in the videos
+- **87 → 302 active ads (+247%)**, after 345 → 87 at the previous count: The Ethiopian Journal 5 → 62, Top 10 Holistic Tips 4 → 46, The Wellness Journal 6 → 42, Purely Nutrient Black Seed 40 → 81, Purely-Nutrient 31 → 69. Nearly all launched on October 30.
+- **The prostate hides in the videos**: of 89 ads collected, the copy never mentions "prostate" or "Flomax" (54 mention the liver). But 3 of the 5 transcribed video hooks are about the prostate: "Here's how to take black seed oil for your prostate the right way… I'm a urologist" ([view](https://www.facebook.com/ads/library/?id=1819795179056688)), "Watch what happens when you put a swollen prostate in contact with Flomax" ([view](https://www.facebook.com/ads/library/?id=1625448289060648)), and a "buy two, get one free" offer ([view](https://www.facebook.com/ads/library/?id=1138761571832878)). So this is not an exit from the prostate.
+- **Spanish in force**: 29 of the 89 ads are in Spanish. **New long stories** outside men's health: knees ("bone on bone"), blood pressure ("Stalin's Doctors"), couples ("He's 61. I'm 32").
+- **Sales pages**: ethiopian-black-seed-oil (58 ads), pp-48 (29 ads).
+- **Similarweb traffic**: purelynutrient.com 178K visits in September, +100.3%, 74.08% US.
+- **For Uromend**: this yo-yo shows that a drop on a single count means nothing with them. Spanish remains lightly contested on prostate (to be tested).

@@ -57,3 +57,12 @@ Purely Nutrient vend de l'**huile de nigelle éthiopienne (black seed oil)**, es
 - Être **1er sur « enlarged prostate » en un mois** avec un produit non prostate montre que la place se gagne avec le volume et le ciblage, pas avec la pertinence : Uromend peut la reprendre avec 30-50 vidéos sur le même angle.
 - Les pages « journal / top 10 » (média déguisé) sont une idée propre à reprendre : une page « Men's Night Guide » ou « Prostate Health Daily » qui publie des conseils et des pubs.
 - À surveiller : 0 → 365 en un mois ; si le prochain comptage montre 600+, ils ont trouvé une vidéo gagnante : la transcrire et l'analyser en priorité.
+
+
+## Mise à jour du 1er novembre 2026 : rebond à 302 pubs, la prostate reste dans les vidéos
+- **87 → 302 pubs actives (+247 %)**, après 345 → 87 le relevé d'avant : The Ethiopian Journal 5 → 62, Top 10 Holistic Tips 4 → 46, The Wellness Journal 6 → 42, Purely Nutrient Black Seed 40 → 81, Purely-Nutrient 31 → 69. Lancées presque toutes le 30 octobre.
+- **La prostate se cache dans les vidéos** : sur 89 pubs récoltées, le texte ne cite jamais « prostate » ni « Flomax » (54 citent le foie, « liver »). Mais 3 hooks vidéo sur les 5 transcrits parlent de prostate : « Here's how to take black seed oil for your prostate the right way… I'm a urologist » ([voir](https://www.facebook.com/ads/library/?id=1819795179056688)), « Watch what happens when you put a swollen prostate in contact with Flomax » ([voir](https://www.facebook.com/ads/library/?id=1625448289060648)), et une offre « buy two, get one free » ([voir](https://www.facebook.com/ads/library/?id=1138761571832878)). Ce n'est donc pas un abandon de la prostate.
+- **Espagnol en force** : 29 pubs sur 89 sont en espagnol. **Nouvelles histoires longues** hors santé masculine : genoux (« bone on bone »), tension (« Stalin's Doctors »), couple (« He's 61. I'm 32 »).
+- **Pages de vente** : ethiopian-black-seed-oil (58 pubs), pp-48 (29 pubs).
+- **Trafic Similarweb** : purelynutrient.com 178K visites en septembre, +100,3 %, 74,08 % US.
+- **Pour Uromend** : ce yo-yo montre qu'une chute sur un seul relevé ne veut rien dire chez eux. L'espagnol reste un terrain peu pris sur la prostate (à tester).
