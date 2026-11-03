@@ -88,3 +88,16 @@ Elivora is **Uromend's closest competitor**: pumpkin seed + saw palmetto + beta-
 - **New "800 refunds" angle**: "This month we received over 800 refund requests… 94 percent… bought what they thought was Elivora on Amazon" ([view](https://www.facebook.com/ads/library/?id=2637020816717147)). Bad news becomes proof: only 16 real unhappy customers, the rest come from copies.
 - **New attack on the oil format**: "I Took Pumpkin Seed Oil Every Single Morning For 11 Weeks. My Flow Never Improved" ([view](https://www.facebook.com/ads/library/?id=1120084633730679)). The failure is blamed on bottled oil from Amazon in a smoothie. Elivora sells its softgel as the answer.
 - **For Uromend**: the fight moves from "pumpkin or Flomax" to "which form of pumpkin". While Elivora has cut back, it is the moment to test a "Compare the label" ad on "Flomax" and "enlarged prostate" (to be tested).
+
+## November 3, 2026 update (snapshot #12): back up, +40% in two days
+- Volume: 285 active ads (203 on November 1, +40%). Veda Lockwood 70 → 100 (+43%), Greg Ellison 87 → 130 (+49%), Natural Health & Wellness Club 46 → 55. Christopher Jay stays at 0.
+- 18 new ads read (12 on Veda Lockwood, 6 on Greg Ellison), almost all launched October 31 and November 1.
+- New angles:
+  - **Everly copy**: "My husband refused tamsulosin for four years. Here's what happened to his prostate." = Everly's hook running since August 1 ("refused Flomax"), with tamsulosin (Flomax's generic name) instead. [ad](https://www.facebook.com/ads/library/?id=2321345175371875)
+  - **Fake success confession**: "This month we received over 800 refund requests…" (the brand "admits" a problem to look honest). [ad](https://www.facebook.com/ads/library/?id=1105627298764571)
+  - **Anti-Flomax mechanism**: "Flomax relaxes the muscle. It doesn't shrink the gland." [ad](https://www.facebook.com/ads/library/?id=2293396884535209)
+  - **Authority**: "I retired as a surgical pathologist six weeks ago." and "14 years on a urology floor" (dangerous foods for the prostate).
+  - **Community anger**: "I'm so f****ing sick of guys in my husband's prostate groups posting that pumpkin seeds and cutting coffee fix…" [ad](https://www.facebook.com/ads/library/?id=1129941146059061)
+- New product: fermented black garlic + CoQ10 ("Looking to Perform Like You Used To, Naturally?") = sexual performance angle.
+- Landing pages: still elivorahealth.com/pages/prostate and /pages/7-reasons-pumpkin-prostate-health.
+- For Uromend: "Flomax relaxes the muscle, it doesn't shrink the gland" is exactly our promise ("without Flomax side effects"). Elivora now takes it: we need to own it first, with our full formula (pumpkin 600 mg + saw palmetto + beta-sitosterol) as proof.

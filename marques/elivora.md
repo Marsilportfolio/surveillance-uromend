@@ -88,3 +88,16 @@ Elivora est le concurrent **le plus proche d'Uromend** : courge + saw palmetto +
 - **Nouvel angle « 800 remboursements »** : « This month we received over 800 refund requests… 94 percent… bought what they thought was Elivora on Amazon » ([voir](https://www.facebook.com/ads/library/?id=2637020816717147)). La mauvaise nouvelle devient une preuve : seulement 16 vrais clients déçus, le reste vient des copies.
 - **Nouvelle attaque sur le format huile** : « I Took Pumpkin Seed Oil Every Single Morning For 11 Weeks. My Flow Never Improved » ([voir](https://www.facebook.com/ads/library/?id=1120084633730679)). L'échec vient de l'huile en bouteille achetée sur Amazon, dans un smoothie. Elivora vend sa gélule comme la solution.
 - **Pour Uromend** : la bataille se déplace de « courge ou Flomax » vers « quelle forme de courge ». Tant qu'Elivora a coupé, c'est le moment de tester une pub « Compare the label » sur « Flomax » et « enlarged prostate » (à tester).
+
+## Mise à jour du 3 novembre 2026 (relevé n°12) : ça repart, +40 % en deux jours
+- Volume : 285 pubs actives (203 le 1er novembre, +40 %). Veda Lockwood 70 → 100 (+43 %), Greg Ellison 87 → 130 (+49 %), Natural Health & Wellness Club 46 → 55. Christopher Jay reste à 0.
+- 18 nouvelles pubs lues (12 chez Veda Lockwood, 6 chez Greg Ellison), presque toutes lancées les 31 octobre et 1er novembre.
+- Nouveaux angles :
+  - **Copie d'Everly** : « My husband refused tamsulosin for four years. Here's what happened to his prostate. » = l'accroche d'Everly qui tourne depuis le 1er août (« refused Flomax »), avec tamsulosin (le nom générique du Flomax) à la place. [pub](https://www.facebook.com/ads/library/?id=2321345175371875)
+  - **Faux aveu de réussite** : « This month we received over 800 refund requests… » (la marque « avoue » un problème pour paraître honnête). [pub](https://www.facebook.com/ads/library/?id=1105627298764571)
+  - **Mécanisme anti-Flomax** : « Flomax relaxes the muscle. It doesn't shrink the gland. » [pub](https://www.facebook.com/ads/library/?id=2293396884535209)
+  - **Autorité** : « I retired as a surgical pathologist six weeks ago. » (médecin qui analyse les tissus) et « 14 years on a urology floor » (aliments dangereux pour la prostate).
+  - **Colère communautaire** : « I'm so f****ing sick of guys in my husband's prostate groups posting that pumpkin seeds and cutting coffee fix… » [pub](https://www.facebook.com/ads/library/?id=1129941146059061)
+- Nouveau produit : ail noir fermenté + CoQ10 (« Looking to Perform Like You Used To, Naturally? ») = angle performance sexuelle.
+- Pages de vente : toujours elivorahealth.com/pages/prostate et /pages/7-reasons-pumpkin-prostate-health.
+- Pour Uromend : « Flomax relaxes the muscle, it doesn't shrink the gland » est exactement notre promesse (« sans les effets du Flomax »). Elivora la prend maintenant : il faut la tenir avant eux, avec notre formule complète (courge 600 mg + saw palmetto + bêta-sitostérol) comme preuve.
