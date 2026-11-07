@@ -73,3 +73,10 @@ Everly is an ad factory: **≈ 9,300 active ads on 9 Facebook pages** (3 pages a
   - **Money lost**: "I spent $4,200 on a urologist and prescription meds for my prostate. I was still getting up 5 times a night to pee. My doctor said 'that's just part of aging.' He was wrong" (2 variants, [see](https://www.facebook.com/ads/library/?id=1693820628337289)).
   - The women angles (leaks + hair + "weight loss blocker" / parasites) run on the same page.
 - **For Uromend**: Everly attacks our format (the capsule) with the DHT argument. Possible answer: the "Compare the label" ad (1,400 mg, 6 ingredients, beta-sitosterol and saw palmetto = precisely what acts on DHT), and take the "$4,200" story for ourselves.
+
+## Update 11/07/2026: Everly cuts 81% of its ads and changes topic
+- **Volume**: 9,790 active ads on 11/05 → **1,833** on 11/07 (−81%), on every page at once (Dr. Lisa Downing 1,600 → 340, Everly 1,500 → 340, Rooted Remedies 1,000 → 89, NaturaNoura → 0). Such a sharp, simultaneous cut = a big clean-out of losing ads (or Meta blocking part of them), not a gradual decline.
+- **The stock was renewed**: on the Dr. Lisa Downing page, 29 of the first 30 ads are new; Rooted Remedies 27 of 30.
+- **New angles**: **kidneys** ("I'm an Austrian nephrologist. My GFR dropped to 38…"; GFR = the measure of kidney filtration; "The most dangerous sign of kidney failure isn't your creatinine number") and **women's hair** (video: "If you want your hair back before this summer, the best thing you can take is not biotin"). Prostate is no longer the core message on these pages.
+- **Sales pages**: get.shopeverly.shop/pumpkin-seed-oil/subtxt/mm-sht-ps (14 ads) and the product page shopeverly.shop/products/everly®-pumpkin-seed-oil-softgels (13 + 27 on Rooted Remedies).
+- **For Uromend**: Everly is freeing up room on "male prostate / bladder" in Meta auctions; now is the time to push our best prostate ads. Site traffic (Similarweb, September): 141.8K visits, +2%.

@@ -73,3 +73,10 @@ Everly est une usine à pubs : **≈ 9 300 pubs actives sur 9 pages Facebook** (
   - **L'argent perdu** : « I spent $4,200 on a urologist and prescription meds for my prostate. I was still getting up 5 times a night to pee. My doctor said "that's just part of aging." He was wrong » (2 variantes, [voir](https://www.facebook.com/ads/library/?id=1693820628337289)).
   - Les angles femmes (fuites + cheveux + « weight loss blocker » / parasites) tournent sur la même page.
 - **Pour Uromend** : Everly attaque notre format (la gélule) avec l'argument DHT. Réponse possible : la pub « Compare the label » (1 400 mg, 6 ingrédients, bêta-sitostérol et saw palmetto = justement ce qui agit sur la DHT), et reprendre le récit « $4,200 » à notre compte.
+
+## Mise à jour du 07/11/2026 : Everly coupe 81 % de ses pubs et change de sujet
+- **Volume** : 9 790 pubs actives le 05/11 → **1 833** le 07/11 (−81 %), sur toutes les pages en même temps (Dr. Lisa Downing 1 600 → 340, Everly 1 500 → 340, Rooted Remedies 1 000 → 89, NaturaNoura → 0). Une coupe aussi nette et simultanée = grand ménage des pubs perdantes (ou blocage Meta d'une partie), pas une baisse progressive.
+- **Le stock a été renouvelé** : sur la page Dr. Lisa Downing, 29 des 30 premières pubs sont nouvelles ; Rooted Remedies 27 sur 30.
+- **Nouveaux angles** : les **reins** (« I'm an Austrian nephrologist. My GFR dropped to 38… » ; GFR = la mesure du filtrage des reins ; « The most dangerous sign of kidney failure isn't your creatinine number ») et les **cheveux des femmes** (vidéo : « If you want your hair back before this summer, the best thing you can take is not biotin »). La prostate n'est plus le cœur du message sur ces pages.
+- **Pages de vente** : get.shopeverly.shop/pumpkin-seed-oil/subtxt/mm-sht-ps (14 pubs) et la fiche produit shopeverly.shop/products/everly®-pumpkin-seed-oil-softgels (13 + 27 sur Rooted Remedies).
+- **Pour Uromend** : Everly libère de la place sur « prostate / vessie homme » dans les enchères Meta ; c'est le moment de pousser nos meilleures pubs prostate. Trafic du site (Similarweb, septembre) : 141,8K visites, +2 %.

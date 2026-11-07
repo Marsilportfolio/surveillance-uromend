@@ -1,5 +1,5 @@
 # Transcriptions des pubs vidéo — Everly (huile de graines de courge)
-Mis à jour le 05/11/2026. Source : Bibliothèque publicitaire Meta, transcription locale (faster-whisper small).
+Mis à jour le 07/11/2026. Source : Bibliothèque publicitaire Meta, transcription locale (faster-whisper small).
 
 ## Dr. Lisa Downing — début 31 jan 2026 — 3 variante(s) — https://www.facebook.com/ads/library/?id=4212289052359862
 Vidéo : https://video.fcmn1-2.fna.fbcdn.net/o1/v/t2/f2/m412/AQMXzLtB6wGz3J7lsNOyzmt0Lk0GG6JzJ6-tYaItUGa2bxxAaHpaERPusVBAvuWwFm7KUb0LPlWEiZxOBhf7Fd5ipZdVJEaYm_14SyMQWg.mp4?_nc_cat=111&_nc_oc=Adrm_l69pLrcjAlDRR5cgyrPw1xRm4reThBTblh3OVxNJm2ydf04WxzgkNTCeN2RW50&_nc_sid=ef5aa3&_nc_ht=video.fcmn1-2.fna.fbcdn.net&_nc_ohc=fefiIusHufAQ7kNvwH1KvAB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTIzMTY2MDQ5NTcyNTc5NCwiYXNzZXRfYWdlX2RheXMiOjI3NywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjU1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=e5GtEw72mrjX0vswsduGYQ&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQt1P4hWPTRUObM8eCAV6oXvYDSrUSBosXKcrt-hjgzIw&oe=6AF2143B
