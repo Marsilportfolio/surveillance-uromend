@@ -123,3 +123,18 @@ Elivora is **Uromend's closest competitor**: pumpkin seed + saw palmetto + beta-
   - **The wife / family**: "My husband had been going soft on me for five years…" ([ad](https://www.facebook.com/ads/library/?id=3062355880768252)), "Mr. Pruitt, your d*ck is never getting hard again" ([ad](https://www.facebook.com/ads/library/?id=1861773281518251)).
 - Sales pages: [black garlic + CoQ10 product](https://elivorahealth.com/products/fermented-black-garlic-extract-coq10-ubiquinol-6000mg-odorless-softgels), [7-reasons-black-garlic-blood-flow](https://elivorahealth.com/pages/7-reasons-black-garlic-blood-flow), [7-reasons-black-garlic-heart-bp](https://elivorahealth.com/pages/7-reasons-black-garlic-heart-bp).
 - **For Uromend**: the biggest "pumpkin seed prostate" advertiser just left the field on "Flomax" and "enlarged prostate". Now is the time to push our ads on those searches. Their pivot also shows the same 55+ men buy for erections: our "without Flomax side effects" claim (no ejaculation or libido problems) speaks to that same fear.
+
+## Update of November 17, 2026 (snapshot #17): back to prostate in force, ×3 in two days
+(The French version also has the updates of Nov 1, 3, 5 and 9, not yet translated.)
+- **Volume: 44 → 149 active ads (×3.4)** since Nov 15. Greg Ellison 26 → 77, Veda Lockwood 17 → 49, Natural Health & Wellness Club 1 → 23. Christopher Jay stays at 0.
+- **Every new ad read is about the prostate** (70 new ads across the 3 pages, launched Nov 15-16): the black garlic push of Nov 9 is gone from the main pages. Elivora is back on pumpkin seed.
+- **Format**: long testimonial texts, no video (images only), very raw tone ("I don't give a f*ck if you don't believe me").
+- **Angles**:
+  - **Flomax head-on**: "My husband refused Flomax for four years. Here's what happened to his prostate." (4 variants); "Can I take pumpkin seed oil with my Flomax?"; "Men on Flomax still up three times a night will lose their sleep, their kidneys and their bladder to a catheter".
+  - **The "urologist" attacking our ingredients**: "As a urologist, I'm begging you to stop buying cranberry pills, saw palmetto and cheap pumpkin seed capsules" (Greg Ellison, [ad](https://www.facebook.com/ads/library/?id=2428402131321247)). The image: "you're rinsing out a hose that's being squeezed shut from the outside".
+  - **The nurse / caregiver**: "For 28 years I've put catheters in men who found out too late" → "the three worst things a man up four times a night can do" (cutting water after supper…) ([ad](https://www.facebook.com/ads/library/?id=1436214995338709)).
+  - **Fear of surgery**: "65 to 75% of TURP patients lose normal ejaculation permanently" (TURP = surgery that shaves the prostate through the urethra).
+  - **The credible craftsman**: "I ran an oil press 31 years and still swallowed cheap pumpkin seed oil on top of my Flomax".
+- **Sales page**: 56 of 70 ads go to [elivorahealth.com/pages/prostate](https://elivorahealth.com/pages/prostate), the rest to [7-reasons-pumpkin-prostate-health](https://elivorahealth.com/pages/7-reasons-pumpkin-prostate-health).
+- **Traffic** (Similarweb, October): visits below the public threshold, +4% month over month, 93% United States.
+- **For Uromend**: this is our most direct competitor (pumpkin seed + Flomax + men up at night) and it is back strong, with a message that says plainly "saw palmetto and cheap pumpkin capsules don't work". Our ads need an answer: explain why our dose (pumpkin 600 mg + saw palmetto 250 + beta-sitosterol 200) is not a "cheap capsule".
