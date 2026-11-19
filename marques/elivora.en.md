@@ -1,6 +1,12 @@
 ## In one sentence
 Elivora is **Uromend's closest competitor**: pumpkin seed + saw palmetto + beta-sitosterol, "Stop taking Flomax" angle, **≈ 1,340 active ads** on 2 pages (Veda Lockwood 1,000, Christopher Jay 340), almost all launched in **October 2026** (45 of the 60 collected): they are in full acceleration. And since early October the Christopher Jay page has been testing a **second product, erection gummies** (ultimapeak.com).
 
+## Update 11/19/2026: another +90% (149 → 283 ads)
+- Veda Lockwood 49 → 81, Greg Ellison 77 → 110, Natural Health & Wellness Club 23 → 92 (×4). Christopher Jay stays at 0.
+- New "reverse" hooks: **"This month we received over 800 refund requests…"** ([ad](https://www.facebook.com/ads/library/?id=1777162683584139)) and **"Please don't buy Elivora Pumpkin Seed Oil softgels"** ([ad](https://www.facebook.com/ads/library/?id=2140115116593149)): fake bad news that turns into a promise ("we didn't warn you what it feels like to sleep through the night").
+- The wife tallying her husband's night trips "in pencil" ([ad](https://www.facebook.com/ads/library/?id=2263635110883000)), the 28-year nurse whose husband refused Flomax, the "most dangerous foods for your prostate" list.
+- ⚠️ The same Greg Ellison character is a **"66-year-old retired electrician"** in one ad and **"Dr. Greg Ellison"** who postponed a TURP (prostate surgery through the urethra) in another: invented characters, risk of a Meta restriction like Everly in October.
+
 ## Marketing angles (60 ads read)
 - **"Stop taking Flomax"** leads: "I'm a urologist, and here are 3 things men over 50 need to stop doing immediately if they keep getting up to pee at night. Number one: Stop taking Flomax" (4th on the "Flomax" search, 18th on "bladder support"). Flomax "relaxes the muscle" but "doesn't shrink what is swollen"; only "the one cold-pressed oil" does.
 - **The husband who refused the drug**: "My husband refused Flomax / tamsulosin / finasteride / tadalafil for four years. Here's what happened to his prostate": the same ad exists with 4 different drug names (Oct 7, 2026) to capture each search. Narrator: a nurse of 28 years who "catheterized men who couldn't empty their own bladders".

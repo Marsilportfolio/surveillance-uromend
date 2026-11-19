@@ -1,6 +1,11 @@
 ## En une phrase
 STĒLO Health vend « Stream », un complément à base d'**équol** (molécule issue du soja, fabriquée par certaines bactéries intestinales), 200 pubs actives sur une page + des influenceurs fitness (« Michael Morelli », « Aaronsbetterbody »). Toute sa publicité repose sur **une seule idée : « saw palmetto, pumpkin seed, beta-sitosterol were never going to work »**, c'est-à-dire une attaque frontale contre la formule d'Uromend.
 
+## Mise à jour du 19/11/2026
+- **360 pubs actives** (290 le 17/11, +24 %) : Stelo continue de monter.
+- Les deux pubs qui durent sont toujours là : « Saw palmetto, pumpkin seed, beta-sitosterol? they were never going to work » (depuis le 21/09, [pub](https://www.facebook.com/ads/library/?id=4686093265051016)) et « Japanese men have 73% less prostate problems » (depuis le 22/05, [pub](https://www.facebook.com/ads/library/?id=4333859843426160)) : 2 et 6 mois = rentables.
+- Classements : 7e sur « prostate supplement », 8e sur « Flomax », 10e sur « saw palmetto », 14e sur « bladder support ».
+
 ## Angles marketing (26 pubs lues)
 - **« Ils n'ont jamais marché »** (17 pubs sur 26, dont les rangs 1, 4, 6, 10, 11, 14, 22, 24) : « Saw palmetto, pumpkin seed, beta-sitosterol? They were never going to work. Why? None of these "natural ingredients" target DHT. DHT is a hormone that's 5x more powerful than testosterone ». Variante « PLEASE stop using… ».
 - **« Top Urologists tested 27 prostate supplements »** (rangs 5, 21, 23, 26) : « Look at the ingredients on the bottles in your drawer. They're ALL the same… they all failed you for the SAME reason ».

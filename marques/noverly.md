@@ -1,6 +1,9 @@
 ## En une phrase
 Noverly, c'est **2 900 pubs actives sur UNE seule page (« Mr. Leeroy »)**, la plus grosse page du radar, même famille qu'Everly (même type de site Shopify, mêmes récits). Produit : **nattokinase 10 000 FU** (enzyme du natto japonais, vendue pour « dissoudre la fibrine » dans les artères). Ce n'est pas un produit prostate, mais ils **chassent sur le mot-clé « enlarged prostate » et sur le Flomax** avec un angle circulation/érection qui parle au même homme de 55 ans.
 
+## Mise à jour du 19/11/2026 : à l'arrêt
+- La page Mr. Leeroy affiche **0 pub active** (déjà 0 le 17/11). Noverly ne diffuse plus rien aux États-Unis ; la fiche ci-dessous décrit ce qui tournait en octobre. Même famille qu'Everly, qui vient aussi de couper 72 % de ses pubs.
+
 ## Angles marketing (23 pubs lues, 20 vidéos)
 - **« Votre testostérone est normale… et pourtant »** (la pub reine : 7 variantes, lancée le 6 oct 2026) : « Your testosterone came back normal. That's the part nobody explains to you… An erection is not a hormone. It's a plumbing event » : l'érection est un problème de tuyauterie (circulation), pas d'hormone. Réponse : nattokinase.
 - **Tamsulosine → plus rien ne sort** (4 variantes, 24 sept 2026, 25e sur « enlarged prostate ») : « If you were put on tamsulosin for an enlarged prostate and one day nothing came out anymore — nobody warned you ». Narrateur : « I'm a cardiologist. Twenty-nine years ». Il relie prostate, Flomax et éjaculation rétrograde/absence d'éjaculation (effet secondaire réel de la tamsulosine).

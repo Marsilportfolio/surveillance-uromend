@@ -1,6 +1,13 @@
 ## En une phrase (auto-diagnostic)
 Uromend : **133 pubs actives** (120 sur la page Uromend, 13 sur « My Bladder And Prostate »), toutes lancées entre juillet et octobre 2026, 7 vidéos sur 29 pubs récoltées. Message unique « 6-in-1 formula », pages de vente [uromend.com/pages/v3](https://uromend.com/pages/v3) (17 pubs) et v2 (8 pubs).
 
+## Mise à jour du 19/11/2026
+- **488 pubs actives** (Uromend 480 + My Bladder And Prostate 8), contre 553 le 17/11 (-12 %) : toujours dans le trio de tête avec Semaine Health (510) et Protaflo (510).
+- Ce qui tourne en tête de page : la **Black Friday** (« THIS IS NOT A DRILL ⏰ … 30% OFF for life », 3 variantes, [pub](https://www.facebook.com/ads/library/?id=3858441084320635)) et les pubs « 6-in-1 » (fuites, jet faible, nuits coupées) vers uromend.com/pages/v3.
+- Uromend apparaît dans les classements « Flomax » et « prostate supplement ».
+- Trafic (Similarweb, octobre) : 118,6 K visites, +212 %, 96 % États-Unis.
+- Ce qui manque toujours face aux concurrents : les hooks « à l'envers » (Elivora « 800 refunds », North Hollow « STOP taking prostate supplements ») et une attaque directe et nommée du Tamsulosin/Flomax en vidéo.
+
 ## Ce qu'on fait déjà bien
 - La pub **« Most prostate brands hide behind a proprietary blend… The doses are too small to print »** (vidéo, 31 juillet 2026) : angle « doses honnêtes, 1 400 mg », unique sur le marché, personne d'autre ne le dit.
 - Le récit **« F*ck this product »** (18 sept 2026) : premier essai de texte long à la première personne, dans le style Everly/Elivora.

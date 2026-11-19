@@ -1,5 +1,11 @@
 # North Hollow (brand sheet written on November 15, 2026)
 
+## Update 11/19/2026: doubled (28 → 60 ads) on the anti-Tamsulosin angle
+- Healthy Living After 55 goes from **28 to 60 active ads (+114%)**, 25 new ones harvested, launched Nov 15-16.
+- Main angle = **ours**: Tamsulosin (generic name of Flomax) attacked head-on. "If you are on Tamsulosin and still getting up 2-3 times a night WATCH THIS NOW… your one-way ticket to a catheter" ([ad](https://www.facebook.com/ads/library/?id=1682529019921217)), "WARNING for men with an enlarged prostate (BPH): Tamsulosin is temporary. Saw palmetto alone is not enough" ([ad](https://www.facebook.com/ads/library/?id=1438503595067433)).
+- Other hooks: "Please STOP taking prostate supplements" ([ad](https://www.facebook.com/ads/library/?id=1634161347568142)), the 58-year-old man crying in the garage after surgery ([ad](https://www.facebook.com/ads/library/?id=1095710573522896)), "what one capsule does inside your prostate the second you swallow it" (DHT mechanism).
+- Sales pages: advertorial north-hollow.com/adv, listicle (/pages/listicle) and product page.
+
 ## In one sentence
 A newcomer (Facebook page "Healthy Living After 55", site north-hollow.com) selling a dry capsule with 8 plant extracts, almost the same formula family as Uromend, by copying the best mechanics of the big players: Elivora's repentant urologist, Everly's "STOP taking prostate supplements" and Purely Nutrient's "journey of the capsule".
 

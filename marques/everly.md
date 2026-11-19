@@ -1,6 +1,13 @@
 ## En une phrase
 Everly est une usine à pubs : **≈ 9 300 pubs actives sur 9 pages Facebook** (3 pages à 1 500 chacune), un seul produit (huile de graines de courge en softgels, ≈ 15 $ d'appel, pack 3 bouteilles poussé), et le même récit décliné à l'infini vers **4 douleurs différentes** : prostate/nuits, reins, vessie des femmes, cheveux. Uromend en a 133.
 
+## Mise à jour du 19/11/2026 : grosse coupe (-72 %) et mode « flash sale »
+- **Total Everly : 2 645 → 734 pubs actives en deux jours (-72 %)**. Toutes les pages baissent : Dr. Lisa Downing 540 → 120, Katherine Davis 510 → 240, Anastasia Chamberlen 460 → 120, Everly 450 → 66, Rooted Remedies 110 → 5, Elizabeth Miller 53 → 0. Recompté à la main sur Dr. Lisa Downing : 120, ce n'est pas une erreur de lecture.
+- Everly **disparaît des 7 classements de recherche** (0 pub vue sur prostate, Flomax, saw palmetto…).
+- Les vidéos qui restent sont des **pubs de fin de promo** : « The Everly Flash sale ends today. 70% off, buy one, take one » ([pub](https://www.facebook.com/ads/library/?id=1624322049074155)), de la **relance panier** (« If Everly is still sitting in your cart… », [pub](https://www.facebook.com/ads/library/?id=1661887005536742)) et l'abonnement -25 %. Nouveauté : une pub **anti-copie** (« un client avait acheté un sachet qui ressemble au nôtre, sans saw palmetto », [pub](https://www.facebook.com/ads/library/?id=1642571297569262)) et une pub **cheveux des femmes après 40 ans** (DHT).
+- Les pubs envoient maintenant **directement sur la fiche produit** shopeverly.shop (plus d'advertorial).
+- Lecture : fin de promo + coupe = soit la promo est finie et ils coupent ce qui ne rentabilise plus, soit Meta a encore restreint des pages. À recompter au prochain relevé.
+
 ## Mise à jour du 23/10/2026 : les pages « docteur » ont disparu
 - **5 pages sur 9 sont tombées à 0 pub en deux jours** : Dr. Lisa Downing (1 500 le 21/10), Nutritionist Katherine Davis (1 500), Dr. Anastasia Chamberlen (1 600), Elemental Grove (950), NaturaNoura (270). Même en cherchant les pubs **inactives**, la Bibliothèque n'affiche plus rien pour Dr. Lisa Downing : l'historique a été effacé, ce qui arrive en général quand Meta supprime ou restreint une page (ici, des faux « docteurs » et « nutritionnistes »).
 - **Total Everly : 9 280 → 3 600 pubs (-61 %)**. Restent Everly (1 400), Rooted Remedies (1 000), Nutragrace (950), Elizabeth Miller (250).

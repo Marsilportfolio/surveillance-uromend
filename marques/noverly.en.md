@@ -1,6 +1,9 @@
 ## In one sentence
 Noverly is **2,900 active ads on ONE page ("Mr. Leeroy")**, the biggest page on the radar, same family as Everly (same kind of Shopify site, same stories). Product: **nattokinase 10,000 FU** (an enzyme from Japanese natto, sold to "dissolve fibrin" in the arteries). It's not a prostate product, but they **hunt on the "enlarged prostate" keyword and on Flomax** with a circulation/erection angle that speaks to the same 55-year-old man.
 
+## Update 11/19/2026: stopped
+- The Mr. Leeroy page shows **0 active ads** (already 0 on 11/17). Noverly no longer runs anything in the US; the sheet below describes what was running in October. Same family as Everly, which also just cut 72% of its ads.
+
 ## Marketing angles (23 ads read, 20 videos)
 - **"Your testosterone is normal… and yet"** (the star ad: 7 variants, launched Oct 6, 2026): "Your testosterone came back normal. That's the part nobody explains to you… An erection is not a hormone. It's a plumbing event": erections are a plumbing (circulation) problem, not a hormone one. Answer: nattokinase.
 - **Tamsulosin → nothing comes out anymore** (4 variants, Sept 24, 2026, 25th on "enlarged prostate"): "If you were put on tamsulosin for an enlarged prostate and one day nothing came out anymore — nobody warned you". Narrator: "I'm a cardiologist. Twenty-nine years". He links prostate, Flomax and retrograde/absent ejaculation (a real tamsulosin side effect).

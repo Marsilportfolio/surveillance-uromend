@@ -1,6 +1,12 @@
 ## En une phrase
 Elivora est le concurrent **le plus proche d'Uromend** : courge + saw palmetto + bêta-sitostérol, angle « Arrêtez le Flomax », **≈ 1 340 pubs actives** sur 2 pages (Veda Lockwood 1 000, Christopher Jay 340), presque toutes lancées en **octobre 2026** (45 des 60 récoltées) : ils sont en pleine accélération. Et depuis début octobre la page Christopher Jay teste un **deuxième produit, des gummies pour l'érection** (ultimapeak.com).
 
+## Mise à jour du 19/11/2026 : encore +90 % (149 → 283 pubs)
+- Veda Lockwood 49 → 81, Greg Ellison 77 → 110, Natural Health & Wellness Club 23 → 92 (×4). Christopher Jay reste à 0.
+- Nouveaux hooks « à l'envers » : **« This month we received over 800 refund requests… »** ([pub](https://www.facebook.com/ads/library/?id=1777162683584139)) et **« Please don't buy Elivora Pumpkin Seed Oil softgels »** ([pub](https://www.facebook.com/ads/library/?id=2140115116593149)) : la fausse mauvaise nouvelle qui finit en promesse (« on ne vous avait pas prévenu de ce que ça fait de dormir toute la nuit »).
+- La femme qui compte les levers de son mari « au crayon » ([pub](https://www.facebook.com/ads/library/?id=2263635110883000)), l'infirmière de 28 ans dont le mari a refusé le Flomax, la « liste des aliments dangereux pour la prostate ».
+- ⚠️ Le même personnage Greg Ellison est **« électricien retraité de 66 ans »** dans une pub et **« Dr. Greg Ellison »** qui a repoussé une TURP (opération de la prostate par les voies naturelles) dans une autre : personnages inventés, risque de restriction Meta comme Everly en octobre.
+
 ## Angles marketing (60 pubs lues)
 - **« Stop taking Flomax »** en tête : « I'm a urologist, and here are 3 things men over 50 need to stop doing immediately if they keep getting up to pee at night. Number one: Stop taking Flomax » (4e sur la recherche « Flomax », 18e sur « bladder support »). Le Flomax « relâche le muscle » mais « ne rétrécit pas ce qui est gonflé » ; seule « the one cold-pressed oil » le fait.
 - **Le mari qui a refusé le médicament** : « My husband refused Flomax / tamsulosin / finasteride / tadalafil for four years. Here's what happened to his prostate » : la même pub existe avec 4 noms de médicaments différents (7 oct 2026) pour capter chaque recherche. Narratrice : infirmière depuis 28 ans qui a « catheterized men who couldn't empty their own bladders ».

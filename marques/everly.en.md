@@ -1,6 +1,13 @@
 ## In one sentence
 Everly is an ad factory: **≈ 9,300 active ads on 9 Facebook pages** (3 pages at 1,500 each), one product (pumpkin seed oil softgels, ≈ $15 entry price, 3-bottle pack pushed), and the same story endlessly adapted to **4 different pain points**: prostate/nights, kidneys, women's bladder, hair. Uromend has 133.
 
+## Update 11/19/2026: big cut (-72%) and "flash sale" mode
+- **Everly total: 2,645 → 734 active ads in two days (-72%)**. Every page drops: Dr. Lisa Downing 540 → 120, Katherine Davis 510 → 240, Anastasia Chamberlen 460 → 120, Everly 450 → 66, Rooted Remedies 110 → 5, Elizabeth Miller 53 → 0. Recounted by hand on Dr. Lisa Downing: 120, not a reading error.
+- Everly **disappears from all 7 search rankings** (0 ads seen on prostate, Flomax, saw palmetto…).
+- The remaining videos are **end-of-sale ads**: "The Everly Flash sale ends today. 70% off, buy one, take one" ([ad](https://www.facebook.com/ads/library/?id=1624322049074155)), **cart retargeting** ("If Everly is still sitting in your cart…", [ad](https://www.facebook.com/ads/library/?id=1661887005536742)) and the -25% subscription. New: an **anti-knockoff** ad ("a customer bought a pouch that looks like ours, with no saw palmetto", [ad](https://www.facebook.com/ads/library/?id=1642571297569262)) and a **women's hair after 40** ad (DHT).
+- Ads now go **straight to the product page** on shopeverly.shop (no more advertorial).
+- Reading: end of sale + cut = either the promo is over and they cut what no longer pays, or Meta restricted pages again. To recount next run.
+
 ## Update 10/23/2026: the "doctor" pages are gone
 - **5 of 9 pages dropped to 0 ads in two days**: Dr. Lisa Downing (1,500 on 10/21), Nutritionist Katherine Davis (1,500), Dr. Anastasia Chamberlen (1,600), Elemental Grove (950), NaturaNoura (270). Even when searching **inactive** ads, the Library shows nothing for Dr. Lisa Downing: the history was wiped, which usually happens when Meta removes or restricts a page (here, fake "doctors" and "nutritionists").
 - **Everly total: 9,280 → 3,600 ads (-61%)**. Remaining: Everly (1,400), Rooted Remedies (1,000), Nutragrace (950), Elizabeth Miller (250).

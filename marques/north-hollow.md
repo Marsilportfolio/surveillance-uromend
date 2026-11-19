@@ -1,5 +1,11 @@
 # North Hollow (fiche écrite le 15 novembre 2026)
 
+## Mise à jour du 19/11/2026 : doublé (28 → 60 pubs) sur l'angle anti-Tamsulosin
+- Healthy Living After 55 passe de **28 à 60 pubs actives (+114 %)**, 25 nouvelles récoltées, lancées entre le 15 et le 16/11.
+- Angle principal = **le nôtre** : le Tamsulosin (nom générique du Flomax) attaqué de front. « If you are on Tamsulosin and still getting up 2-3 times a night WATCH THIS NOW… your one-way ticket to a catheter » ([pub](https://www.facebook.com/ads/library/?id=1682529019921217)), « WARNING for men with an enlarged prostate (BPH = prostate qui gonfle): Tamsulosin is temporary. Saw palmetto alone is not enough » ([pub](https://www.facebook.com/ads/library/?id=1438503595067433)).
+- Autres hooks : « Please STOP taking prostate supplements » ([pub](https://www.facebook.com/ads/library/?id=1634161347568142)), l'homme de 58 ans qui pleure dans le garage après sa chirurgie ([pub](https://www.facebook.com/ads/library/?id=1095710573522896)), « ce que fait une capsule dans votre prostate dès que vous l'avalez » (mécanisme DHT).
+- Pages de vente : advertorial north-hollow.com/adv, listicle (/pages/listicle) et fiche produit.
+
 ## En une phrase
 Un petit nouveau (page Facebook « Healthy Living After 55 », site north-hollow.com) qui vend une gélule sèche à 8 plantes, presque la même famille de formule qu'Uromend, en recopiant les meilleures mécaniques des gros : l'urologue repenti d'Elivora, le « STOP taking prostate supplements » d'Everly et le « voyage de la gélule » de Purely Nutrient.
 
